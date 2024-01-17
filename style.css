@@ -1,0 +1,548 @@
+*{
+    background-color: #f6f9fc59;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+  }
+
+/* Tela responsiva */
+@media screen and (max-width: 1440px) {
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        width: max-content;
+        margin-top: -13px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 15rem;
+        width: 70%;
+    }
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: blue;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 3em;
+        color: #32610c;
+        text-align: center;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .container-imagem-cabecalho{
+        display: flex;  
+        margin: 15px; 
+        padding: 15px;
+    }
+    .imagem-cabecalho-1{
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 15px;
+    }
+    .imagem-cabecalho-2{
+        border: 1px solid black; margin: 15px; padding: 15px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 1024px) {
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        width: max-content;
+        margin-top: -13px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 15rem;
+        width: 70%;
+    }
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: blue;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 3em;
+        color: #32610c;
+        text-align: center;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 768px) {
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        width: max-content;
+        margin-top: -13px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 15rem;
+        width: 70%;
+    }
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: blue;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 3em;
+        color: #32610c;
+        text-align: center;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 425px) {
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        width: max-content;
+        margin-top: -13px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 15rem;
+        width: 70%;
+    }
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: blue;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 3em;
+        color: #32610c;
+        text-align: center;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 375px) {
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        width: max-content;
+        margin-top: -13px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 15rem;
+        width: 70%;
+    }
+    .titulo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: blue;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 3em;
+        color: #32610c;
+        text-align: center;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 320px) {
+    *{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+    }
+        
+    .toda_pag{
+        width: 100%;
+        margin-left: -15em;
+    }
+
+
+    /* menu */
+    .container-menu{
+        display: none;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 2.3em;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.7em;
+    }
+
+    .sub_titulo_secao{
+        font-size: 2em;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+    }
+
+    .container-imagem-cabecalho{
+        display: contents;  
+    }
+    .imagem-cabecalho-1{
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 15px;
+    }
+    .imagem-cabecalho-2 {
+        border: 1px solid black; margin: 15px; padding: 15px;
+    }
+
+
+}
