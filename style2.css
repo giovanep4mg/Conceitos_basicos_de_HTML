@@ -1,0 +1,491 @@
+
+/* Tela responsiva */
+
+/* Tela responsiva */
+@media screen and (max-width: 1440px) {
+        
+    .toda_pag{
+       
+    }
+
+
+    /* menu */
+    .container-menu{
+        margin-top: 10px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+    .titulo-menu{
+        font-size: 4.4em;
+    }
+
+    .container-menu-links{
+        width: -webkit-fill-available;
+    }
+
+    .links-menu {
+        font-size: 2.4em;
+        line-height: 1.3em;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .toda_pag{
+       
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 25rem;
+        width: 72%;
+    }
+    /* titulo da página principal*/
+    .titulo{
+        font-size: 6.5em;
+    }
+
+    .secao{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 5.4em;
+    }
+
+    .secao-descricao{
+        font-size: 2.3em;
+    }
+
+    .container-imagem-cabecalho{
+        display: flex;  
+        margin: 15px; 
+        padding: 15px;
+    }
+
+    .imagem-cabecalho-1{
+        width: 85%;
+    }
+
+    .imagem-cabecalho-img {
+        width: 55%;
+    }
+
+    .imagem-cabecalho-2{
+        border: 1px solid black; margin: 15px; padding: 15px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 768px) {
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        margin-top: 0px;
+        height: 100%;
+    }
+
+    .titulo-menu{
+        font-size: 4em;
+    }
+    .container-menu-links{
+        
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 12em;
+        width: 70%;
+    }
+
+    .titulo{
+        font-size: 3.5em;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 2em;
+    }
+
+    .secao-descricao{
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+    }
+
+    .imagem-estrutura-basica{
+        width: -webkit-fill-available;
+        height: 15em;
+    }
+
+    .container-imagem-cabecalho{
+        flex-direction: column;
+    }
+    .imagem-cabecalho-1{
+        padding: 15px;
+        width: 100%;
+        margin: -28px;
+    }
+    .imagem-cabecalho-2{
+        margin: -28px;
+        padding: 15px;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .imagem{
+        
+    }
+
+    .container-imagens-links{
+
+    }
+
+    .imagem-link-codigo{
+        width: 26em;
+        height: 13em;
+    }
+
+    .imagem-comentario{
+        width: 26em;
+        height: 13em;
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+}
+
+
+/* Tela responsiva */
+@media screen and (max-width: 425px) {
+
+    body{
+        width: -webkit-fill-available;
+    }
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        display: none;
+    }
+
+    .titulo-menu{
+        font-size: 2.4em;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 0rem;
+        width: auto;
+    }
+    .titulo{
+        font-size: 1.5em;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: -10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 1.5em;
+    }
+
+    .secao-descricao{
+        font-size: 1em;
+    }
+
+    .container-imagem-cabecalho {
+        flex-direction: column;
+    }
+
+    .imagem-cabecalho-1 {
+        margin: -20px;
+    }
+
+    .imagem-cabecalho-2 {
+        margin: -20px;
+        margin-top: 1em;
+    }
+
+    .imagem-comentario{
+
+    }
+
+
+    .imagem{
+        
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+
+/* Tela responsiva */
+@media screen and (max-width: 375px) {
+
+    body{
+        width: -webkit-fill-available;
+    }
+        
+    .toda_pag{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+
+    /* menu */
+    .container-menu{
+        display: none;
+    }
+
+    .titulo-menu{
+        font-size: 2.4em;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 0rem;
+        width: auto;
+    }
+    .titulo{
+        font-size: 1.5em;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: -10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 1.5em;
+    }
+
+    .secao-descricao{
+        font-size: 1em;
+    }
+
+    .container-imagem-cabecalho {
+        flex-direction: column;
+    }
+
+    .imagem-cabecalho-1 {
+        margin: -20px;
+    }
+
+    .imagem-cabecalho-2 {
+        margin: -20px;
+        margin-top: 1em;
+    }
+
+    .imagem-comentario{
+
+    }
+
+
+    .imagem{
+        
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
+
+/* Tela responsiva */
+@media screen and (max-width: 315px) {
+    *{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+    }
+        
+    .toda_pag{
+        width: 100%;
+        margin-left: -15em;
+    }
+
+
+    /* menu */
+    .container-menu{
+        display: none;
+    }
+    .titulo-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-menu-links{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 4em;
+        width: max-content;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* pagina */
+    .container-pagina{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 2.3em;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .secao{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.7em;
+    }
+
+    .sub_titulo_secao{
+        font-size: 2em;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+    }
+
+    .container-imagem-cabecalho{
+        display: contents;  
+    }
+    .imagem-cabecalho-1{
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 15px;
+    }
+    .imagem-cabecalho-2 {
+        border: 1px solid black; margin: 15px; padding: 15px;
+    }
+
+
+}
