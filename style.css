@@ -158,3 +158,102 @@ body {
     }
 
 } 
+
+/* Tela responsiva */
+@media screen and (max-width: 1440px) {
+        
+    .toda_pag{
+       
+    }
+
+
+    /* menu */
+    .container-menu{
+        margin-top: 10px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+    .titulo-menu{
+        font-size: 4.4em;
+    }
+
+    .container-menu-links{
+        width: -webkit-fill-available;
+    }
+
+    .links-menu {
+        font-size: 2.4em;
+        line-height: 1.3em;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .toda_pag{
+       
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 25rem;
+        width: 72%;
+    }
+    /* titulo da página principal*/
+    .titulo{
+        font-size: 6.5em;
+    }
+
+    .secao{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Oq_e_html{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 5.4em;
+    }
+
+    .secao-descricao{
+        font-size: 2.3em;
+    }
+
+    .container-imagem-cabecalho{
+        display: flex;  
+        margin: 15px; 
+        padding: 15px;
+    }
+
+    .imagem-cabecalho-1{
+        width: 85%;
+    }
+
+    .imagem-cabecalho-img {
+        width: 55%;
+    }
+
+    .imagem-cabecalho-2{
+        border: 1px solid black; margin: 15px; padding: 15px;
+    }
+
+    .imagem{
+        
+    }
+
+    a{
+        
+    }
+    a:hover{
+        color: black;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
