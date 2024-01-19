@@ -584,7 +584,7 @@
         
     .toda_pag{
         margin: 10px;
-        padding: 10px;
+        padding: 0px;
         display: flex;
     }
 
@@ -624,7 +624,8 @@
     }
 
     .secao{
-        margin: -10px;
+        margin: 0px;
+        padding: 0px;
     }
 
     .sub_titulo_secao{
@@ -637,15 +638,32 @@
 
     .container-imagem-cabecalho {
         flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: -10px;
+        padding-top: 55px;
     }
 
     .imagem-cabecalho-1 {
         margin: -20px;
+        padding: 0px;
+        width: 95%;
+    }
+
+    .imagem-cabecalho-img{
+        width: 70%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .imagem-cabecalho-2 {
         margin: -20px;
         margin-top: 1em;
+        width: 86%;
+    }
+
+    .container-imagem-imagens{
+
     }
 
     .imagem-link-codigo {
