@@ -369,6 +369,7 @@
 
   /* Tela responsiva */
 @media (max-width: 768px) {
+
     .toda_pag{
         margin: 10px;
         padding: 10px;
@@ -383,14 +384,15 @@
     }
 
     .titulo-menu{
-        font-size: 4em;
-    }
-    .container-menu-links{
-        
+        font-size: 2.5em;
     }
 
     li{
         list-style: none;
+    }
+
+    .links-menu{
+        font-size: 1.3em;
     }
 
     /* pagina */
@@ -443,14 +445,6 @@
         margin-top: 1em;
     }
 
-    .imagem{
-        
-    }
-
-    .container-imagens-links{
-
-    }
-
     .imagem-link-codigo{
         width: 26em;
         height: 13em;
@@ -459,13 +453,6 @@
     .imagem-comentario{
         width: 26em;
         height: 13em;
-    }
-
-    a{
-        
-    }
-    a:hover{
-        color: black;
     }
 
     .detalhe{
