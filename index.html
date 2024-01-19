@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site sobre os fundamentos básicos de HTML, com perguntas e um exercício simples.">
     <meta name="description" content="Explore os conceitos básicos de HTML com este site educacional. Descubra informações sobre tags, elementos, atributos, estrutura básica e pratique com perguntas e um exercício simples.">
-
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Conceitos básicos de HTML</title>
     <!--CSS-->
@@ -159,8 +159,15 @@
                     <div class="secao-descricao">
                         <h3>
                             <p>
-                                As tags podem ter atributos que fornecem informações adicionais sobre como o elemento deve ser exibido ou se comportar.<br>
-                                Atributos são incluídos dentro da tag de abertura. Por exemplo, <span class="detalhe">< a href="https://www.exemplo.com">Link < /a ></span> tem o atributo href.
+                                As tags podem ter atributos que fornecem informações adicionais sobre como o elemento deve ser exibido ou se comportar.
+                                Atributos são incluídos dentro da tag de abertura. <br>
+                                <br>
+                                Por exemplo:<br>
+                                Usamos a tag "a" : <span class="detalhe" >  a  </span> <br>
+                                Adicionamos o atributo "href" : <span class="detalhe" > href="" </span> <br>
+                                Dentro dela colocamos o endereço : <span class="detalhe" > https://www.exemplo.com </span> <br>
+                                <br>
+                                Quando o usuário clicar no link, será redirecionado para o endereço do link.
                             </p>
                         </h3>
                     </div>
@@ -265,7 +272,7 @@
                                     <span class="detalhe">  < a > </span>: <br>
                                     Usa a tag "a" para adicionar links, e usando o  atributo <span class="detalhe">href</span>, especifica o destino do  link.<br>
                                     <br>
-                                    <div style="margin: 15px; padding: 15px;">
+                                    <div>
                                         Exemplo:
                                         <br>
                                         <h2>Link interno:</h2>
@@ -303,7 +310,7 @@
                                     Usa a tag "img" para adicionar uma imagem, e usando o  atributo <span class="detalhe">src</span>, para indicar o caminho da imagem.<br>
                                     E temos o atributo "alt", que serve para descrever sobre a imagem que será usada, para pessoas com deficienca visuais.<br>
                                     <br>
-                                    <div style="margin: 15px; padding: 15px; border: 1px solid black;">
+                                    <div style="margin: 15px; padding: 15px; border: 1px solid black;" class="container-imagem-imagens">
                                         Exemplo:
                                         <br>
                                         <h2>Imagem interna:</h2>
@@ -333,21 +340,22 @@
                             <p>
                                 <h3>
                                     <span class="detalhe">  < !--Comentário--   > </span>: <br>
-                                    Usamos  essa tag " < !-- -- > ", para adicionar algum comentário no código, ele não irá aprecer na página.<br>
+                                    Usamos  essa tag " < !-- -- > ", <br>
+                                    para adicionar algum comentário no código, ele não irá aprecer na página.<br>
                                     <br>
-                                    <div style="margin: 15px; padding: 15px; ">
+                                    <div>
                                         Exemplo:
                                         <br>
-                                        <div style=" width: 70%;">
+                                        <div>
                                             <h2>Veja como fica no código, usando o VScode:</h2> <br>
                                             <img class="imagem-comentario" 
                                                 src="./Imagens/comentario-codigo-vscode.PNG" 
                                                 alt="">
                                         </div>
                                         <br>
-                                        <div style=" width: 70%; height: 10%;">
+                                        <div>
                                             <h2>Agora veja como fica na página web:</h2>
-                                        <img style="width: 100%; border: 1px solid black; height: 10%;" 
+                                        <img class="imagem-comentario2" 
                                             src="./Imagens/comentario-pag-web-como-fica.PNG" 
                                             alt="">
                                         </div>
