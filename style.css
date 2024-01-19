@@ -749,11 +749,11 @@
     .container-imagem-cabecalho{
         display: contents;  
     }
+
     .imagem-cabecalho-1{
         border: 1px solid black;
         margin: 0px;
-        width: 90%;
-        margin-left: -5px;
+        width: 85%;
     }
 
     .imagem-cabecalho-img {
@@ -763,8 +763,7 @@
     .imagem-cabecalho-2 {
         border: 1px solid black;
         margin: 0px;
-        width: 90%;
-        margin-left: -5px;
+        width: 85%;
     }
 
     .imagem-cabecalho-img1 {
@@ -780,17 +779,16 @@
 
     .imagem-imagens {
         height: 15em;
-        width: 124%;
-        margin: -38px;
+        width: 111%;
+        margin: -14px;
         padding-top: 45px;
         padding-bottom: 20px;
     }
 
     .imagem-comentario {
         height: 10em;
-        width: 100%;
-        margin: -37px;
-        padding: 30px;
+        margin: 0px;
+        padding: 0px;
     }
 
     .imagem-comentario1 {
@@ -801,10 +799,6 @@
     }
     
     .imagem {
-        width: -webkit-fill-available;
-        margin: -5px;
-        padding: 15px;
-        margin-left: -20px;
     }
     
     .imagem-link-codigo {
