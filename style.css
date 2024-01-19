@@ -475,16 +475,11 @@
 
 
 /* Tela responsiva */
-@media screen and (max-width: 425px) {
-
-    body{
-        width: -webkit-fill-available;
-    }
-        
+@media (max-width: 425px) {
+    
     .toda_pag{
-        margin: 10px;
-        padding: 10px;
-        display: flex;
+        margin: 0px;
+        padding: 0px;
     }
 
 
@@ -493,34 +488,23 @@
         display: none;
     }
 
-    .titulo-menu{
-        font-size: 2.4em;
-        margin: 0px;
-        padding: 0px;
-    }
-    .container-menu-links{
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 4em;
-        width: max-content;
-    }
-
-    li{
-        list-style: none;
-    }
-
+    
+    
     /* pagina */
     .container-pagina{
-        margin-left: 0rem;
-        width: auto;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
     }
+
     .titulo{
-        font-size: 1.5em;
+        font-size: 3em;
+        margin-top: 10px;
     }
 
     .Oq_e_html{
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 0px;
     }
 
     .secao{
@@ -537,35 +521,33 @@
 
     .container-imagem-cabecalho {
         flex-direction: column;
+        margin: 0px;
+        padding-top: 28px;
     }
 
     .imagem-cabecalho-1 {
         margin: -20px;
+        width: 85%;
     }
 
     .imagem-cabecalho-2 {
         margin: -20px;
         margin-top: 1em;
+        width: 85%;
     }
 
     .imagem-comentario{
-
+        width: 100%;
     }
 
-
-    .imagem{
-        
+    .imagem-link-codigo{
+        width: 100%;
     }
+
+    
     img{
         width: 100%;
         height: 100%;
-    }
-
-    a{
-        
-    }
-    a:hover{
-        color: black;
     }
 
     .detalhe{
@@ -592,22 +574,6 @@
     /* menu */
     .container-menu{
         display: none;
-    }
-
-    .titulo-menu{
-        font-size: 2.4em;
-        margin: 0px;
-        padding: 0px;
-    }
-    .container-menu-links{
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 4em;
-        width: max-content;
-    }
-
-    li{
-        list-style: none;
     }
 
     /* pagina */
@@ -662,10 +628,6 @@
         width: 86%;
     }
 
-    .container-imagem-imagens{
-
-    }
-
     .imagem-link-codigo {
         width: -webkit-fill-available;
     }
@@ -675,20 +637,9 @@
         width: -webkit-fill-available;
     }
 
-
-    .imagem{
-        
-    }
     img{
         width: 100%;
         height: 100%;
-    }
-
-    a{
-        
-    }
-    a:hover{
-        color: black;
     }
 
     .detalhe{
@@ -717,24 +668,7 @@
     .container-menu{
         display: none;
     }
-    .titulo-menu{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2.4em;
-        text-align: center;
-        margin: 0px;
-        padding: 0px;
-    }
-    .container-menu-links{
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 4em;
-        width: max-content;
-    }
-
-    li{
-        list-style: none;
-    }
-
+    
     /* pagina */
     .container-pagina{
         width: 100%;
@@ -814,9 +748,6 @@
         width: 100%;
         margin: -37px;
         padding: 30px;
-    }
-    
-    .imagem {
     }
     
     .imagem-link-codigo {
