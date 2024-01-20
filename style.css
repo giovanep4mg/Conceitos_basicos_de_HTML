@@ -101,7 +101,7 @@
     .imagem-cabecalho-1{
         border: 1px solid black; 
         margin: 10px;
-       padding: 20px;
+        padding: 20px;
         width: 100%;
 
     }
@@ -448,6 +448,113 @@
     }
 }
 
+/* Tela responsiva */
+@media (max-width: 428px) {
+    
+    
+    .toda_pag{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+
+    /* menu */
+    .container-menu{
+        margin-top: 0px;
+        height: 100%;
+        width: 25%;
+    }
+
+    .container-titulo{
+        width: 95%;
+    }
+
+    .titulo-menu{
+        font-size: 1em;
+    }
+
+    .container-menu-links{
+        width: -webkit-fill-available;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .links-menu{
+        font-size: 0.8em;
+    }
+
+    
+    
+    /* pagina */
+    .container-pagina{
+        margin-left: 36%;
+        width: 64%;
+    }
+
+    .titulo{
+        font-size: 3em;
+        margin-top: 10px;
+    }
+
+    .Oq_e_html{
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .secao{
+        margin: 0px;
+        padding: 0px;
+        width: 98%;
+    }
+
+    .sub_titulo_secao{
+        font-size: 1.5em;
+    }
+
+    .secao-descricao{
+        font-size: 1em;
+    }
+
+    .container-imagem-cabecalho {
+        flex-direction: column;
+        margin: 0px;
+        padding-top: 20px;
+        width: -webkit-fill-available;
+    }
+
+    .imagem-cabecalho-1 {
+        margin: -20px;
+        width: 85%;
+    }
+
+    .imagem-cabecalho-2 {
+        margin: -20px;
+        margin-top: 1em;
+        width: 85%;
+    }
+
+    .imagem-comentario{
+        width: 100%;
+    }
+
+    .imagem-link-codigo{
+        width: 100%;
+    }
+
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+}
 
 /* Tela responsiva */
 @media (max-width: 425px) {
@@ -533,7 +640,7 @@
 
 
 /* Tela responsiva */
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
     body{
         width: -webkit-fill-available;
@@ -624,9 +731,10 @@
 }
 
 /* Tela responsiva */
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     *{
         width: 100%;
+
     }
 
     body{
@@ -646,10 +754,18 @@
     
     /* pagina */
     .container-pagina{
+        width:-webkit-fill-available;
+    }
+
+    .container-titulo{
         width: 100%;
     }
+
     .titulo{
         font-size: 2.3em;
+        margin: -7px;
+        padding: 0px;
+        margin-top: 5px;
     }
 
     .Oq_e_html{
@@ -702,6 +818,10 @@
         padding: 15px; 
         border: 1px solid black;
         width: -webkit-fill-available;
+    }
+
+    .imagem-estrutura-basica{
+        width: 100%;
     }
 
     .imagem-imagens {
