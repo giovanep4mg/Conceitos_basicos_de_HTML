@@ -156,6 +156,42 @@
         color: red;
     }
 
+    
+    /* Links para as redes sociais */
+    .container-redes{
+        display: flex;
+        margin-left: 5em;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 10em;
+    }
+    .linkedin{
+        margin-left: 5em;
+    }
+    .facebook{
+    }
+    .insta{
+        
+    }
+    .imagem-icon{
+        width: 45%;
+    }
+
+    /* copy */
+    .container-copyrygth{
+
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+
 } 
 
 /* Tela responsiva */
@@ -851,6 +887,42 @@
         padding: 0px;
     }
 
+    
+    /* Links para as redes sociais */
+    .container-redes{
+        margin-left: 5px;
+        padding-bottom: 1em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 5em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 5em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 5em;
+        padding-top: 2em;
+        
+    }
+    .imagem-icon{
+        width: 25%;
+    }
+
+    /* copy */
+    .container-copyrygth{
+
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
 
 }
 
