@@ -8,7 +8,7 @@
     
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-        width: 98%;
+        border: 1px solid;
     }
     
     body {
@@ -70,6 +70,7 @@
     .secao{
         margin: 10px;
         padding: 10px;
+        
     }
 
     .sub_titulo_secao{
@@ -107,12 +108,11 @@
     }
 
     .imagem-cabecalho-img{
-        width: -webkit-fill-available;
+        width: 100%;
     }
 
     .imagem-cabecalho-img1{
-        width: -webkit-fill-available;
-        width: 60%;
+        width: 100%;
     }
 
     .imagem-cabecalho-2{
@@ -189,6 +189,11 @@
     .link-retorno{
         font-family: math;
         font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 5px;
     }
 
 
@@ -291,6 +296,42 @@
         color: red;
     }
 
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
 }
 
 
@@ -388,6 +429,42 @@
     .detalhe{
         color: red;
     }
+
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
     
 }
 
@@ -481,6 +558,42 @@
 
     .detalhe{
         color: red;
+    }
+
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
     }
 }
 
@@ -590,6 +703,42 @@
         color: red;
     }
 
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
 }
 
 /* Tela responsiva */
@@ -626,7 +775,7 @@
     }
 
     .secao{
-        margin: -10px;
+        margin: 10px;
     }
 
     .sub_titulo_secao{
@@ -672,6 +821,42 @@
         color: red;
     }
 
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
 }
 
 
@@ -683,9 +868,8 @@
     }
         
     .toda_pag{
-        margin: 10px;
+        margin: 0px;
         padding: 0px;
-        display: flex;
     }
 
 
@@ -717,7 +901,8 @@
     }
 
     .secao-descricao{
-        font-size: 1em;
+        padding: 4px;
+        margin: 0px;
     }
 
     .container-imagem-cabecalho {
@@ -764,17 +949,52 @@
         color: red;
     }
 
+    /* Links para as redes sociais */
+    .container-redes{
+        margin-left: 0px;
+        padding-bottom: 0em;
+        flex-direction: column;
+    }
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .insta{
+        margin-left: 0em;
+        padding-top: 2em;
+    }
+    .imagem-icon{
+        width: 25%;
+        margin-left: 5em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 5px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
 }
 
 /* Tela responsiva */
 @media (max-width: 321px) {
     *{
-        width: 100%;
-
+        border: 0px;
     }
 
     body{
-        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
         
     .toda_pag{
@@ -790,7 +1010,9 @@
     
     /* pagina */
     .container-pagina{
-        width:-webkit-fill-available;
+        width:100%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .container-titulo{
@@ -799,8 +1021,6 @@
 
     .titulo{
         font-size: 2.3em;
-        margin: -7px;
-        padding: 0px;
         margin-top: 5px;
     }
 
@@ -810,9 +1030,10 @@
     }
 
     .secao{
-        margin: 5px;
+        margin: 0px;
         padding: 0px;
-        width: -webkit-fill-available;
+        width: 100%;
+        margin-top: 10px;
     }
 
     .sub_titulo_secao{
@@ -832,11 +1053,11 @@
     .imagem-cabecalho-1{
         border: 1px solid black;
         margin: 0px;
-        width: 85%;
+        width: 100%;
     }
 
     .imagem-cabecalho-img {
-        width: 80%;
+        width: 100%;
     }
 
     .imagem-cabecalho-2 {
@@ -890,30 +1111,30 @@
     
     /* Links para as redes sociais */
     .container-redes{
-        margin-left: 5px;
-        padding-bottom: 1em;
+        margin-left: 0px;
+        padding-bottom: 0em;
         flex-direction: column;
     }
     .linkedin{
-        margin-left: 5em;
+        margin-left: 0em;
         padding-top: 2em;
     }
     .facebook{
-        margin-left: 5em;
+        margin-left: 0em;
         padding-top: 2em;
     }
     .insta{
-        margin-left: 5em;
+        margin-left: 0em;
         padding-top: 2em;
-        
     }
     .imagem-icon{
         width: 25%;
+        margin-left: 5em;
     }
 
     /* copy */
     .container-copyrygth{
-
+        padding: 5px;
     }
 
     /* Links para página inicial */
