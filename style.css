@@ -12,7 +12,8 @@
     }
     
     body {
-        box-sizing: border-box;
+        box-sizing: content-box;
+        width: 100%;
       }
         
     .toda_pag{
@@ -53,7 +54,11 @@
     /* pagina */
     .container-pagina{
         margin-left: 43em;
-        width: 85%;
+        width: 100%;
+    }
+
+    .container-titulo{
+        width: 100%;
     }
     .titulo{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -68,8 +73,9 @@
     }
 
     .secao{
-        margin: 10px;
-        padding: 10px;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 5px;
         
     }
 
@@ -863,10 +869,7 @@
 /* Tela responsiva */
 @media (max-width: 376px) {
 
-    body{
-        width: -webkit-fill-available;
-    }
-        
+    
     .toda_pag{
         margin: 0px;
         padding: 0px;
@@ -886,6 +889,10 @@
         font-size: 1.5em;
     }
 
+    hr{
+        width: 98%;
+    }
+
     .Oq_e_html{
         margin: 10px;
         padding: 10px;
@@ -894,6 +901,7 @@
     .secao{
         margin: 0px;
         padding: 0px;
+        padding-top: 5px;
     }
 
     .sub_titulo_secao{
@@ -906,10 +914,9 @@
     }
 
     .container-imagem-cabecalho {
-        flex-direction: column;
         width: 100%;
         padding: 0px;
-        margin: -10px;
+        margin: 0px;
         padding-top: 55px;
     }
 
@@ -920,7 +927,7 @@
     }
 
     .imagem-cabecalho-img{
-        width: 70%;
+        width: 100%;
         margin: 0px;
         padding: 0px;
     }
@@ -928,7 +935,7 @@
     .imagem-cabecalho-2 {
         margin: -20px;
         margin-top: 1em;
-        width: 86%;
+        width: 100%;
     }
 
     .imagem-link-codigo {
@@ -969,7 +976,7 @@
     }
     .imagem-icon{
         width: 25%;
-        margin-left: 5em;
+        margin-left: 8em;
     }
 
     /* copy */
