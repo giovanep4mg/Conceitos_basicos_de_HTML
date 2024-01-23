@@ -5,10 +5,7 @@
         background-color: #f6f9fc59;
         margin: 0px;
         padding: 0px;
-    
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-        border: 1px solid;
     }
     
     body {
@@ -17,19 +14,18 @@
       }
         
     .toda_pag{
-        margin: 10px;
+        margin: 0px;
         padding: 10px;
-        display: flex;
     }
 
 
     /* menu */
     .container-menu{
         position: fixed;
-        margin: 10px;
+        margin: 0px;
         padding: 10px;
-        width: 25%;
-        margin-top: -15px;
+        width: 22%;
+        margin-top: 4px;
         overflow-y: auto;
         height: 100vh;
     }
@@ -38,7 +34,7 @@
         font-size: 7.4em;
         text-align: center;
         margin: 0px;
-        padding: 0px;
+        padding: 25px;
     }
     .container-menu-links{
         margin: 0px;
@@ -53,8 +49,8 @@
 
     /* pagina */
     .container-pagina{
-        margin-left: 43em;
-        width: 100%;
+        margin-left: 37.5em;
+        width: 76%;
     }
 
     .container-titulo{
@@ -65,11 +61,6 @@
         font-size: 10.5em;
         text-align: center;
         color: blue;
-    }
-
-    .Oq_e_html{
-        margin: 10px;
-        padding: 10px;
     }
 
     .secao{
@@ -93,11 +84,10 @@
     }
 
     .container-imagem-cabecalho{
-        display: flex;
         margin: 0px;
         padding: 0px;
         align-items: center;
-        width: 100%;
+        width: -webkit-fill-available;
         flex-direction: column;
     }
 
@@ -106,10 +96,10 @@
     }
 
     .imagem-cabecalho-1{
-        border: 1px solid black; 
-        margin: 10px;
-        padding: 20px;
-        width: 100%;
+        border: 1px solid black;
+        margin: 0px;
+        padding: 0px;
+        width: -webkit-fill-available;
 
     }
 
@@ -123,9 +113,6 @@
 
     .imagem-cabecalho-2{
         border: 1px solid black; margin: 15px; padding: 15px;
-    }
-
-    .container-imagens-links{
     }
 
     .imagem-link-codigo{
@@ -142,9 +129,6 @@
         height: 5em;
     }
 
-    .imagem{
-        
-    }
 
     .links-menu{
         font-size: 2.8em;
@@ -153,40 +137,43 @@
     }
 
     a{
+        color: #161515;
     }
     a:hover{
-        color: black;
-    }
-
-    .detalhe{
-        color: red;
+        color: rgba(197, 218, 13, 0.651);
     }
 
     
-    /* Links para as redes sociais */
-    .container-redes{
+    .detalhe{
+        color: #f30808;
+    }
+
+    
+     /* Links para as redes sociais */
+     .container-redes{
+        margin-left: 0px;
         display: flex;
-        margin-left: 5em;
-        width: 100%;
-        align-items: center;
         padding-bottom: 10em;
+        padding-top: 20px;
     }
     .linkedin{
-        margin-left: 5em;
+        margin-left: 0em;
+        padding-top: 2em;
     }
     .facebook{
+        margin-left: 0em;
+        padding-top: 2em;
     }
     .insta{
-        
+        margin-left: 0em;
+        padding-top: 2em;
     }
     .imagem-icon{
-        width: 45%;
+        width: 30%;
+        margin-left: 15em;
+        padding-bottom: 1em;
     }
 
-    /* copy */
-    .container-copyrygth{
-
-    }
 
     /* Links para página inicial */
     .container-link{
@@ -199,26 +186,52 @@
 
     hr{
         background-color: blue;
-        height: 5px;
+        height: 15px;
         width: 100%;
     }
 
+    /* copy */
+    .container-copyrygth{
+        padding: 10px;
+    }
 
-} 
+    .copy{
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .redes-sociais{
+        font-size: 4em;
+        padding-top: 2em;
+    }
+    
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
+}
 
 /* Tela responsiva */
 @media(max-width: 1441px) {
+    *{
+        border: none;
+    }
         
     .toda_pag{
-       
+       margin: 0px;
+       padding: 0px;
     }
 
 
     /* menu */
     .container-menu{
-        margin-top: 10px;
-        overflow-y: auto;
-        height: 100vh;
+        margin: 0px;
+        padding: 10px;
     }
 
     .titulo-menu{
@@ -238,13 +251,10 @@
         list-style: none;
     }
 
-    .toda_pag{
-       
-    }
 
     /* pagina */
     .container-pagina{
-        margin-left: 25rem;
+        margin-left: 24.5rem;
         width: 72%;
     }
     /* titulo da página principal*/
@@ -270,31 +280,25 @@
         font-size: 2.3em;
     }
 
-    .container-imagem-cabecalho{
-        display: flex;  
+    .container-imagem-cabecalho{  
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    .imagem-cabecalho-1{
+        width: 100%;
+    }
+
+    .imagem-cabecalho-img {
+        width: -webkit-fill-available;
+    }
+
+    .imagem-cabecalho-2{
+        border: 1px solid black; 
         margin: 15px; 
         padding: 15px;
     }
 
-    .imagem-cabecalho-1{
-        width: 85%;
-    }
-
-    .imagem-cabecalho-img {
-        width: 55%;
-    }
-
-    .imagem-cabecalho-2{
-        border: 1px solid black; margin: 15px; padding: 15px;
-    }
-
-    .imagem{
-        
-    }
-
-    a{
-        
-    }
     a:hover{
         color: black;
     }
@@ -303,27 +307,26 @@
         color: red;
     }
 
-     /* Links para as redes sociais */
-     .container-redes{
+    /* Links para as redes sociais */
+    .container-redes{
         margin-left: 0px;
         padding-bottom: 0em;
-        flex-direction: column;
     }
     .linkedin{
-        margin-left: 0em;
+        margin-left: -15em;
         padding-top: 2em;
+        padding-bottom: 0.5em;
     }
     .facebook{
         margin-left: 0em;
         padding-top: 2em;
     }
     .insta{
-        margin-left: 0em;
-        padding-top: 2em;
+        padding-right: 5em;
     }
     .imagem-icon{
-        width: 25%;
-        margin-left: 5em;
+        width: 20%;
+        margin-left: 20em;
     }
 
     /* copy */
