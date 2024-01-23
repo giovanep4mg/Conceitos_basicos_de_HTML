@@ -200,6 +200,7 @@
     hr{
         background-color: blue;
         height: 5px;
+        width: 100%;
     }
 
 
@@ -749,7 +750,10 @@
 
 /* Tela responsiva */
 @media (max-width: 426px) {
-    
+    *{
+        border: none;
+    }
+
     .toda_pag{
         margin: 0px;
         padding: 0px;
@@ -1005,7 +1009,8 @@
 /* Tela responsiva */
 @media (max-width: 321px) {
     *{
-        border: 0px;
+        border: none;
+        box-sizing: border-box;
     }
 
     body{
@@ -1013,6 +1018,10 @@
         padding: 0px;
     }
         
+    hr{
+        width: 100%;
+    }
+    
     .toda_pag{
         margin: 0px;
         padding: 0px;
@@ -1040,14 +1049,10 @@
         margin-top: 5px;
     }
 
-    .Oq_e_html{
-        margin: 10px;
-        padding: 10px;
-    }
-
+    
     .secao{
         margin: 0px;
-        padding: 0px;
+        padding: 3px;
         width: 100%;
         margin-top: 10px;
     }
@@ -1099,10 +1104,12 @@
 
     .imagem-imagens {
         height: 15em;
-        width: 111%;
-        margin: -14px;
+        width: 100%;
+        margin: 4px;
         padding-top: 45px;
         padding-bottom: 20px;
+        padding: 0px;
+        margin-left: 0px;
     }
 
     .imagem-comentario {
@@ -1144,13 +1151,17 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 25%;
-        margin-left: 5em;
+        width: 20%;
+        margin-left: 40%;
     }
 
     /* copy */
     .container-copyrygth{
         padding: 5px;
+    }
+    .copy{
+        font-size: 10px;
+        text-align: center;
     }
 
     /* Links para página inicial */
