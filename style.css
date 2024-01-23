@@ -345,17 +345,21 @@
 /* Tela responsiva */
 @media(max-width: 1025px) {
 
+    *{
+        border: none;
+    }
     .toda_pag{
         margin: 0px;
-        padding: 10px;
+        padding: 0px;
     }
 
 
     /* menu */
     .container-menu{
-        margin-top: 0px;
-        height: 100%;
         width: 20%;
+        margin: 0px;
+        padding: 5px;
+        height: 100%;
     }
 
     .titulo-menu{
@@ -363,9 +367,8 @@
     }
 
     .links-menu{
-        font-size: 1.3em;
-        line-height: 1.5em;
-        padding-top: 1em;
+        padding: 5px;
+        font-size: 1.4em;
     }
 
     li{
@@ -374,22 +377,16 @@
 
     /* pagina */
     .container-pagina{
-        margin-left: 15em;
-        width: 80%;
+        margin-left: 14em;
+        width: 77%;
     }
 
     .titulo{
         font-size: 4.5em;
     }
 
-    .Oq_e_html{
-        margin: 10px;
-        padding: 10px;
-    }
-
     .secao{
-        margin: 0px;
-        padding: 0px;
+        padding: 5px;
     }
 
     .sub_titulo_secao{
@@ -409,12 +406,18 @@
 
     .container-imagem-cabecalho{
         flex-direction: column;
+        width: -webkit-fill-available;
     }
     .imagem-cabecalho-1{
-        padding: 15px;
+        padding: 0px;
         width: 100%;
-        margin: -28px;
+        margin: 0px;
     }
+
+    .imagem-cabecalho-img{
+        width: -webkit-fill-available;
+    }
+
     .imagem-cabecalho-2{
         margin: -28px;
         padding: 15px;
@@ -456,8 +459,8 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 25%;
-        margin-left: 5em;
+        width: 13%;
+        margin-left: 20em;
     }
 
     /* copy */
@@ -508,22 +511,17 @@
 
     /* pagina */
     .container-pagina{
-        margin-left: 12em;
-        width: 74%;
+        margin-left: 15em;
+    width: 77%;
     }
 
     .titulo{
         font-size: 3.5em;
     }
 
-    .Oq_e_html{
-        margin: 10px;
-        padding: 10px;
-    }
-
     .secao{
         margin: 0px;
-        padding: 0px;
+        padding: 5px;
     }
 
     .sub_titulo_secao{
