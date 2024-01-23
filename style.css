@@ -477,11 +477,14 @@
 
   /* Tela responsiva */
 @media (max-width: 769px) {
+    *{
+        width: 100%;
+        border: none;
+    }
 
     .toda_pag{
-        margin: 10px;
-        padding: 10px;
-        display: flex;
+        margin: 0px;
+        padding: 0px;
     }
 
 
@@ -500,13 +503,13 @@
     }
 
     .links-menu{
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     /* pagina */
     .container-pagina{
         margin-left: 12em;
-        width: 70%;
+        width: 74%;
     }
 
     .titulo{
@@ -519,8 +522,8 @@
     }
 
     .secao{
-        margin: 20px;
-        padding: 15px;
+        margin: 0px;
+        padding: 0px;
     }
 
     .sub_titulo_secao{
@@ -540,11 +543,11 @@
 
     .container-imagem-cabecalho{
         flex-direction: column;
+        width: -webkit-fill-available;
     }
     .imagem-cabecalho-1{
-        padding: 15px;
-        width: 100%;
-        margin: -28px;
+        padding: 0px;
+        margin: 0px;
     }
     .imagem-cabecalho-2{
         margin: -28px;
@@ -586,8 +589,8 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 25%;
-        margin-left: 5em;
+        width: 15%;
+        margin-left: 12em;
     }
 
     /* copy */
