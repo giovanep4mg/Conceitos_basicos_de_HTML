@@ -714,11 +714,12 @@
         color: red;
     }
 
-     /* Links para as redes sociais */
-     .container-redes{
+    /* Links para as redes sociais */
+    .container-redes{
         margin-left: 0px;
-        padding-bottom: 0em;
-        flex-direction: column;
+        display: flex;
+        padding-bottom: 10em;
+        padding-top: 20px;
     }
     .linkedin{
         margin-left: 0em;
@@ -733,14 +734,42 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 25%;
-        margin-left: 5em;
+        width: 30%;
+        margin-left: 15em;
+        padding-bottom: 1em;
+    }
+
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 15px;
+        width: 100%;
     }
 
     /* copy */
     .container-copyrygth{
-        padding: 5px;
+        padding: 10px;
     }
+
+    .copy{
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .redes-sociais{
+        font-size: 4em;
+        padding-top: 2em;
+    }
+    
 
     /* Links para página inicial */
     .container-link{
@@ -749,6 +778,7 @@
     .link-retorno{
         font-size: 0.7em;
     }
+
 
 }
 
@@ -845,11 +875,12 @@
         color: red;
     }
 
-     /* Links para as redes sociais */
-     .container-redes{
+    /* Links para as redes sociais */
+    .container-redes{
         margin-left: 0px;
-        padding-bottom: 0em;
-        flex-direction: column;
+        display: flex;
+        padding-bottom: 10em;
+        padding-top: 20px;
     }
     .linkedin{
         margin-left: 0em;
@@ -864,14 +895,42 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 20%;
-        margin-left: 10em;
+        width: 30%;
+        margin-left: 15em;
+        padding-bottom: 1em;
+    }
+
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 15px;
+        width: 100%;
     }
 
     /* copy */
     .container-copyrygth{
-        padding: 5px;
+        padding: 10px;
     }
+
+    .copy{
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .redes-sociais{
+        font-size: 4em;
+        padding-top: 2em;
+    }
+    
 
     /* Links para página inicial */
     .container-link{
@@ -880,6 +939,7 @@
     .link-retorno{
         font-size: 0.7em;
     }
+
 
 }
 
@@ -938,9 +998,9 @@
     }
 
     .imagem-cabecalho-1 {
-        margin: -20px;
+        margin: 0px;
         padding: 0px;
-        width: 100%;
+        width: max-content;
     }
 
     .imagem-cabecalho-img{
@@ -952,7 +1012,7 @@
     .imagem-cabecalho-2 {
         padding: 0px;
         margin: 0px;
-        width: 100%;
+        width: -webkit-fill-available;
         
     }
 
@@ -976,31 +1036,46 @@
 
     /* Links para as redes sociais */
     .container-redes{
-        margin-left: 0px;
         padding-bottom: 0em;
-        flex-direction: column;
     }
-    .linkedin{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
-    .facebook{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
-    .insta{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
+    
     .imagem-icon{
         width: 25%;
         margin-left: 8em;
     }
 
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 15px;
+        width: 100%;
+    }
+
     /* copy */
     .container-copyrygth{
-        padding: 5px;
+        padding: 10px;
     }
+
+    .copy{
+        font-size: 1em;
+    }
+
+    .redes-sociais{
+        font-size: 1em;
+        padding-top: 0em;
+        border: 1px solid;
+        width: max-content;
+    }
+    
 
     /* Links para página inicial */
     .container-link{
@@ -1009,6 +1084,7 @@
     .link-retorno{
         font-size: 0.7em;
     }
+
 }
 
 /* Tela responsiva */
@@ -1138,36 +1214,41 @@
 
     
     /* Links para as redes sociais */
-    .container-redes{
-        margin-left: 0px;
-        padding-bottom: 0em;
-        flex-direction: column;
-    }
-    .linkedin{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
-    .facebook{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
-    .insta{
-        margin-left: 0em;
-        padding-top: 2em;
-    }
+    
     .imagem-icon{
         width: 20%;
-        margin-left: 40%;
+    }
+
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 15px;
+        width: 100%;
     }
 
     /* copy */
     .container-copyrygth{
-        padding: 5px;
+        padding: 10px;
     }
+
     .copy{
-        font-size: 10px;
-        text-align: center;
+        font-size: 0.9em;
     }
+
+    .redes-sociais{
+        font-size: 1em;
+        padding-top: 0em;
+    }
+    
 
     /* Links para página inicial */
     .container-link{
