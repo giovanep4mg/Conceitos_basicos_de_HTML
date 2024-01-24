@@ -1371,9 +1371,9 @@
     }
 
     .container-imagem-imagens{
-        margin: 15px; 
-        padding: 15px; 
-        border: 1px solid black;
+        margin: 0px;
+        padding: 3px;
+        border: none;
         width: -webkit-fill-available;
     }
 
@@ -1445,9 +1445,27 @@
         font-size: 0.9em;
     }
 
+    /* redes sociais */
+    .container-redes {
+        display: block;
+    }
+
     .redes-sociais{
         font-size: 1em;
         padding-top: 0em;
+        border: none;
+    }
+
+    .linkedin{
+        padding-top: 5px;
+    }
+
+    .facebook{
+        padding-top: 5px;
+    }
+
+    .insta{
+        padding-top: 15px;
     }
     
 
