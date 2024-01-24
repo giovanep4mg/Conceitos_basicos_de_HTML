@@ -162,11 +162,16 @@
     
      /* Links para as redes sociais */
      .container-redes{
+        display: flex;
+        align-items: baseline;
         margin-left: 0px;
         display: flex;
         padding-bottom: 10em;
         padding-top: 20px;
+        display: flex;
+        margin-left: 0px;
     }
+
     .linkedin{
         margin-left: 0em;
         padding-top: 0em;
