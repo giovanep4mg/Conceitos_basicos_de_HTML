@@ -784,8 +784,9 @@
 
 /* Tela responsiva */
 @media (max-width: 426px) {
-    *{
-        border: none;
+    
+    div{
+        width: -webkit-fill-available;
     }
 
     .toda_pag{
@@ -800,10 +801,10 @@
     }
 
     h2{
-
+        width: -webkit-fill-available;
     }
     hr{
-        width: 98%;
+        width: 100%;
     }
     
     /* pagina */
@@ -814,33 +815,34 @@
     }
 
     .container-titulo{
-        width: 100%;
+        width: -webkit-fill-available;
+    }
+
+    header{
+        width: -webkit-fill-available;
     }
 
     .titulo{
         font-size: 3em;
         margin-top: 10px;
+        width: -webkit-fill-available;
     }
 
-    .Oq_e_html{
-        margin: 5px;
-        padding: 0px;
-    }
-
+    
     .secao{
         padding-top: 10px;
+        width: -webkit-fill-available;
     }
 
     .sub_titulo_secao{
         font-size: 1.5em;
+        width: -webkit-fill-available;
     }
 
     .secao-descricao{
         font-size: 1em;
         padding: 10px;
-    }
-
-    .container-imagem-cabecalho {
+        width: -webkit-fill-available;
     }
 
     .imagem-cabecalho-1 {
@@ -878,26 +880,30 @@
     /* Links para as redes sociais */
     .container-redes{
         margin-left: 0px;
-        display: flex;
-        padding-bottom: 10em;
-        padding-top: 20px;
+        padding-bottom: 1em;
+        padding-top: 10px;
+        flex-direction: row;
     }
+
     .linkedin{
         margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        width: -webkit-fill-available;
     }
     .facebook{
         margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        width: -webkit-fill-available;
     }
     .insta{
-        margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        padding-right: 3em;
     }
+
     .imagem-icon{
-        width: 30%;
-        margin-left: 15em;
-        padding-bottom: 1em;
+        width: 50%;
+        margin-left: 4em;
+        padding-bottom: 0em;
     }
 
 
@@ -922,13 +928,12 @@
     }
 
     .copy{
-        font-size: 3.5em;
-        text-align: center;
+        font-size: 1em;
     }
 
     .redes-sociais{
-        font-size: 4em;
-        padding-top: 2em;
+        font-size: 1em;
+        padding-top: 0em;
     }
     
 
@@ -946,9 +951,6 @@
 
 /* Tela responsiva */
 @media (max-width: 376px) {
-    *{
-        border: 1px solid;
-    }
     
     div{
         box-sizing: border-box;
