@@ -1103,10 +1103,6 @@
 /* Tela responsiva */
 @media (max-width: 351px) {
     
-    *{
-        box-sizing: border-box;
-    }
-
     body{
         margin: 0px;
         padding: 0px;
@@ -1158,9 +1154,10 @@
 
     .sub_titulo_secao{
         font-size: 2em;
+        width: 97%;
     }
 
-    .secao_descricao{
+    .secao-descricao{
         margin: 10px;
         padding: 10px;
         font-size: 0.7em;
@@ -1231,14 +1228,7 @@
     }
 
     
-    /* Links para as redes sociais */
-    .insta {
-        width: 100%;
-    }
     
-    .imagem-icon{
-        width: 20%;
-    }
 
 
     /* Links para página inicial */
@@ -1265,11 +1255,52 @@
         font-size: 0.9em;
     }
 
+    /* copy */
+    .container-copyrygth{
+        padding: 10px;
+    }
+
+    .copy{
+        font-size: 0.9em;
+    }
+
+    /* redes sociais */
+    .container-redes {
+        padding-left: 3em;
+    }
+
     .redes-sociais{
-        font-size: 1em;
+        font-size: 0.7em;
+    }
+
+    .linkedin{
+        margin-left: 0em;
         padding-top: 0em;
     }
-    
+    .link-linkedin{
+
+    }
+
+    .facebook{
+        margin-left: 0em;
+        padding-top: 0em;
+    }
+    .link-facebook{
+
+    }
+
+    .insta{
+        padding-top: 0em;
+        padding-right: 0em;
+    }
+    .link-insta{
+
+    }
+
+    .imagem-icon {
+        width: 30%;
+        margin-left: 3em;
+    }
 
     /* Links para página inicial */
     .container-link{
@@ -1280,6 +1311,12 @@
     }
 
 }
+
+
+
+
+
+
 /* Tela responsiva */
 @media (max-width: 321px) {
     
@@ -1425,6 +1462,7 @@
     .container-link{
         text-align: center;
     }
+
     .link-retorno{
         font-family: math;
         font-size: 4em;
