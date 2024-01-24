@@ -8,10 +8,15 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
-    body {
-        box-sizing: content-box;
-        width: 100%;
-      }
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    div{
+        width: auto;
+    }
         
     .toda_pag{
         margin: 0px;
@@ -29,6 +34,11 @@
         overflow-y: auto;
         height: 100vh;
     }
+
+    header{
+
+    }
+
     .titulo-menu{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 7.4em;
@@ -45,6 +55,21 @@
 
     li{
         list-style: none;
+    }
+
+    .links-menu{
+        font-size: 2.6em;
+        line-height: 1.5em;
+        font-family: sans-serif;
+    }
+
+    a{
+        color: #161515;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgba(4, 14, 90, 0.651);
+        text-decoration: underline;
     }
 
     /* pagina */
@@ -77,8 +102,8 @@
     }
 
     .secao-descricao{
-        margin: 5px;
-        padding: 0px;
+        margin: 0px;
+        padding: 10px;
         font-size: 3em;
         
     }
@@ -129,20 +154,6 @@
         height: 5em;
     }
 
-
-    .links-menu{
-        font-size: 2.8em;
-        line-height: 1.5em;
-        font-family: cursive;
-    }
-
-    a{
-        color: #161515;
-    }
-    a:hover{
-        color: rgba(197, 218, 13, 0.651);
-    }
-
     
     .detalhe{
         color: #f30808;
@@ -158,20 +169,25 @@
     }
     .linkedin{
         margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        text-align: center;
     }
     .facebook{
         margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        text-align: center;
     }
     .insta{
         margin-left: 0em;
-        padding-top: 2em;
+        padding-top: 0em;
+        text-align: center;
+        padding-right: 10em;
     }
+
     .imagem-icon{
-        width: 30%;
-        margin-left: 15em;
-        padding-bottom: 1em;
+        width: 40%;
+        margin-left: 8em;
+        padding-bottom: 2em;
     }
 
 
@@ -219,7 +235,7 @@
 /* Tela responsiva */
 @media(max-width: 1441px) {
     *{
-        border: none;
+        
     }
         
     .toda_pag{
@@ -349,8 +365,9 @@
 @media(max-width: 1025px) {
 
     *{
-        border: none;
+        
     }
+
     .toda_pag{
         margin: 0px;
         padding: 0px;
@@ -484,8 +501,7 @@
   /* Tela responsiva */
 @media (max-width: 769px) {
     *{
-        width: 100%;
-        border: none;
+        
     }
 
     .toda_pag{
@@ -1312,16 +1328,11 @@
 
 }
 
-
-
-
-
-
 /* Tela responsiva */
 @media (max-width: 321px) {
     
     *{
-        box-sizing: border-box;
+
     }
 
     body{
@@ -1518,8 +1529,195 @@
 }
 
 
+/* Tela responsiva */
+@media (max-width: 251px) {
+    
+    *{
+       
+    }
+
+    hr{
+        width: 100%;
+    }
+    
+    .toda_pag{
+        margin: 0px;
+        padding: 0px;
+    }
 
 
+    /* menu */
+    .container-menu{
+        display: none;
+    }
+    
+    /* pagina */
+    .container-pagina{
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container-titulo{
+        width: 100%;
+    }
+
+    .titulo{
+        font-size: 2.3em;
+        margin-top: 5px;
+    }
+
+    
+    .secao{
+        margin: 0px;
+        padding: 3px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .sub_titulo_secao{
+        font-size: 2em;
+    }
+
+    .secao_descricao{
+        margin: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+    }
+
+    .container-imagem-cabecalho{
+        display: contents;  
+    }
+
+    .imagem-cabecalho-1{
+        border: 1px solid black;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .imagem-cabecalho-img {
+        width: 100%;
+    }
+
+    .imagem-cabecalho-2 {
+        border: 1px solid black;
+        margin: 0px;
+        width: 85%;
+    }
+
+    .imagem-cabecalho-img1 {
+        width: 100%;
+    }
+
+    .container-imagem-imagens{
+        margin: 0px;
+        padding: 3px;
+        border: none;
+        width: -webkit-fill-available;
+    }
+
+    .imagem-estrutura-basica{
+        width: 100%;
+    }
+
+    .imagem-imagens {
+        height: 15em;
+        width: 100%;
+        margin: 4px;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .imagem-comentario {
+        height: 10em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .imagem-comentario1 {
+        height: 10em;
+        width: 100%;
+        margin: -37px;
+        padding: 30px;
+    }
+    
+    .imagem-link-codigo {
+        width: 97%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+    /* Links para as redes sociais */
+    .insta {
+        width: 100%;
+    }
+    
+    .imagem-icon{
+        width: 20%;
+    }
+
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+
+    .link-retorno{
+        font-family: math;
+        font-size: 4em;
+    }
+
+    hr{
+        background-color: blue;
+        height: 15px;
+        width: 100%;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 10px;
+    }
+
+    .copy{
+        font-size: 0.9em;
+    }
+
+    /* redes sociais */
+    .container-redes {
+        display: block;
+    }
+
+    .redes-sociais{
+        font-size: 1em;
+        padding-top: 0em;
+        border: none;
+    }
+
+    .linkedin{
+        padding-top: 5px;
+    }
+
+    .facebook{
+        padding-top: 5px;
+    }
+
+    .insta{
+        padding-top: 15px;
+    }
+    
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
+}
 
 
 
