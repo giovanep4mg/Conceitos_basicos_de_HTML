@@ -236,242 +236,188 @@
     
     }
 
-    @media screen and (max-width: 1780px) {
-        html,body{
-            width: 100%;
-            max-width: 100vw;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        body{
-            background: #6bb8e421;
-        }
-            
-        .toda_pag{
-            margin: 0px;
-            padding: 10px;
-        }            
+@media screen and (max-width: 1820px) {
         
+    .container-menu-links{
+        padding: 0em;
+    }
         
-        /* menu */
-        .container-menu{
-            position: fixed;
-            margin: -1em;
-            padding: 0px;
-            width: 22%;
-            overflow-y: auto;
-            height: 100vh;
-            border: solid;
-            margin-top: -1em;
-            background: #d2691e59;
-            padding-bottom: 5em;
-        }
-        
-            header{
-        
-            }
-        
-            .titulo-menu{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 7.4em;
-                text-align: center;
-                margin: 0px;
-                padding: 0.3em;
-            }
-            .container-menu-links{
-                margin: 0px;
-                padding: 1em;
-                width: -webkit-fill-available;
-            }
-        
-            li{
-                list-style: none;
-            }
-        
-            .links-menu{
-                font-size: 3em;
-                line-height: 1.5em;
-                font-family: sans-serif;
-            }
-        
-            a{
-                color: #0a0e89;
-                text-decoration: none;
-            }
-            a:hover{
-                color: rgba(4, 14, 90, 0.651);
-                text-decoration: underline;
-                cursor: pointer;
-            }
-        
-            /* pagina */
-            .container-pagina{
-                margin-left: 23%;
-                width: 77%;
-            }
-        
-            .container-titulo{
-                width: 100%;
-            }
-            .titulo{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size: 10.5em;
-                text-align: center;
-                color: blue;
-            }
-        
-            .secao{
-                margin: 0px;
-                padding: 0px;
-                padding-top: 5px;
+    .links-menu{
+        margin: 0em;            
+    }
                 
-            }
-        
-            .sub_titulo_secao{
-                font-size: 8em;
-                color: #32610c;
-                text-align: center;
-            }
-        
-            .secao-descricao{
-                margin: 0px;
-                padding: 10px;
-                font-size: 3em;
-                
-            }
-        
-            .container-imagem-cabecalho{
-                margin: 0px;
-                padding: 0px;
-                align-items: center;
-                width: -webkit-fill-available;
-                flex-direction: column;
-            }
-        
-            .imagem-estrutura-basica{
-                width: -webkit-fill-available;
-            }
-        
-            .imagem-cabecalho-1{
-                border: 1px solid black;
-                margin: 0px;
-                padding: 0px;
-                width: -webkit-fill-available;
-        
-            }
-        
-            .imagem-cabecalho-img{
-                width: 100%;
-            }
-        
-            .imagem-cabecalho-img1{
-                width: 100%;
-            }
-        
-            .imagem-cabecalho-2{
-                border: 1px solid black; margin: 15px; padding: 15px;
-            }
-        
-            .imagem-link-codigo{
-                width: -webkit-fill-available;
-                height: 8em;
-            }
-        
-            .imagem-imagens{
-                width: -webkit-fill-available;
-            }
-        
-            .imagem-comentario{
-                width: -webkit-fill-available;
-                height: 5em;
-            }
-        
-            .imagem-imagens-2{
-                width: 60%;
-            }
-            
-            .detalhe{
-                color: #f30808;
-            }
-        
-            
-             /* Links para as redes sociais */
-             .container-redes{
-                display: flex;
-                align-items: baseline;
-                margin-left: 0px;
-                display: flex;
-                padding-bottom: 10em;
-                padding-top: 20px;
-                display: flex;
-                margin-left: 0px;
-            }
-        
-            .linkedin{
-                margin-left: 0em;
-                padding-top: 0em;
-                text-align: center;
-            }
-            .facebook{
-                margin-left: 0em;
-                padding-top: 0em;
-                text-align: center;
-            }
-            .insta{
-                margin-left: 0em;
-                padding-top: 0em;
-                text-align: center;
-                padding-right: 10em;
-            }
-        
-            .imagem-icon{
-                width: 40%;
-                margin-left: 8em;
-                padding-bottom: 2em;
-            }
-        
-        
-            /* Links para página inicial */
-            .container-link{
-                text-align: center;
-            }
-            .link-retorno{
-                font-family: math;
-                font-size: 4em;
-            }
-        
-            hr{
-                background-color: blue;
-                height: 15px;
-                width: 100%;
-            }
-        
-            /* copy */
-            .container-copyrygth{
-                padding: 10px;
-            }
-        
-            .copy{
-                font-size: 3.5em;
-                text-align: center;
-            }
-        
-            .redes-sociais{
-                font-size: 4em;
-                padding-top: 2em;
-            }
-            
-        
-            /* Links para página inicial */
-            .container-link{
-                text-align: center;
-            }
-            .link-retorno{
-                font-size: 0.7em;
-            }
-        
-        }
-/* 
+}   
 
+@media screen and (max-width: 1749px) {
+        
+    .container-menu-links{
+        padding: 0em;
+    }
+        
+    .links-menu{
+        margin: 0em;            
+    }
+                
+}   
+
+@media screen and (max-width: 1701px){
+        
+    .container-menu-links{
+        padding: 0em;
+    }
+        
+    .links-menu{
+        margin: 0em;            
+    }
+     
+}
+
+@media screen and (max-width: 1571px){
+        
+    .titulo-menu{
+        font-size: 5.4em;
+    }
+
+    .container-menu-links{
+        padding: 0em;
+    }
+        
+    .links-menu{
+        margin: 0em;            
+    }
+     
+}
+
+
+@media screen and (max-width: 1540px){
+        
+    .container-menu-links{
+        padding: 0em;
+    }
+        
+    .links-menu{
+        margin: 0em;            
+    }
+     
+}
+
+
+@media screen and (max-width: 1680px){
+        
+    .container-menu-links{
+        padding: 0em;
+    }
+        
+    .links-menu {
+        margin: 0em;
+        font-size: 2.5em;
+    }
+     
+}
+
+@media screen and (max-width: 1441px) {
+    *{
+        border: none;
+    }
+        
+    .toda_pag{
+       padding: 0px;
+    }
+
+    .container-menu{
+        margin-top: -2em;
+    }
+    
+    .titulo-menu{
+        font-size: 4.2em;
+    }
+
+    .links-menu {
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 19.5rem;
+        width: 78%;
+    }
+
+    /* titulo da página principal*/
+    .titulo{
+        font-size: 7.5em;
+        margin: 0.2em;
+    }
+
+    .secao{
+        padding: 5px;
+    }
+
+    .secao-descricao{
+        font-size: 2.4em;
+    }
+
+    .container-imagem-cabecalho{  
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    .imagem-cabecalho-1{
+        width: 100%;
+    }
+
+    .imagem-cabecalho-img {
+        width: -webkit-fill-available;
+    }
+
+    .imagem-cabecalho-2{
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 15px;
+    }
+    
+    .imagem-comentario2{
+        width: -webkit-fill-available;
+    }
+
+    /* Links para as redes sociais */
+    .container-redes{
+        padding-bottom: 5em;
+    }
+
+    .redes-sociais{
+        font-size: 3em;
+        padding-top: 0em;
+        margin: 0px;
+    }
+
+    .linkedin{
+        margin-left: -15em;
+        padding-top: 2em;
+        padding-bottom: 0.5em;
+    }
+    
+    .insta{
+        padding-right: 10em;
+    }
+
+    .imagem-icon{
+        width: 28%;
+        margin-left: 20em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 0px;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
+}
 
