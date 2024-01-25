@@ -2,7 +2,7 @@
 /* Tela responsiva */
 @media(max-width: 2561px) {
     *{
-        background-color: #f6f9fc59;
+        background-color: #e0e0e985;
         margin: 0px;
         padding: 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,12 +64,13 @@
     }
 
     a{
-        color: #161515;
+        color: #0a0e89;
         text-decoration: none;
     }
     a:hover{
         color: rgba(4, 14, 90, 0.651);
         text-decoration: underline;
+        cursor: pointer;
     }
 
     /* pagina */
@@ -515,10 +516,7 @@
 
   /* Tela responsiva */
 @media (max-width: 769px) {
-    *{
-        
-    }
-
+    
     .toda_pag{
         margin: 0px;
         padding: 0px;
@@ -527,8 +525,8 @@
 
     /* menu */
     .container-menu{
-        margin-top: 0px;
-        height: 100%;
+        width: 21%;
+        padding: 3px;
     }
 
     .titulo-menu{
@@ -543,10 +541,13 @@
         font-size: 1em;
     }
 
+    .container-menu-links {
+    }
+
     /* pagina */
     .container-pagina{
-        margin-left: 15em;
-    width: 77%;
+        margin-left: 22%;
+        width: 78%;
     }
 
     .titulo{
@@ -568,6 +569,17 @@
         font-size: 1em;
     }
 
+    .container-imagem-imagens{
+
+    }
+    .imagem-comentario2{
+        width: 100%;
+    }
+
+    .imagem-imagens {
+        width: -webkit-fill-available;
+    }
+
     .imagem-estrutura-basica{
         width: -webkit-fill-available;
         height: 15em;
@@ -577,15 +589,19 @@
         flex-direction: column;
         width: -webkit-fill-available;
     }
+
+    .imagem-imagens-2{
+        width: 100%;
+    }
+
     .imagem-cabecalho-1{
         padding: 0px;
         margin: 0px;
     }
     .imagem-cabecalho-2{
-        margin: -28px;
-        padding: 15px;
-        width: 100%;
-        margin-top: 1em;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 0em;
     }
 
     .imagem-link-codigo{
@@ -604,9 +620,7 @@
 
      /* Links para as redes sociais */
      .container-redes{
-        margin-left: 0px;
-        padding-bottom: 0em;
-        flex-direction: column;
+        align-items: center;
     }
     .linkedin{
         margin-left: 0em;
@@ -621,13 +635,24 @@
         padding-top: 2em;
     }
     .imagem-icon{
-        width: 15%;
-        margin-left: 12em;
+        width: 50%;
     }
 
     /* copy */
     .container-copyrygth{
         padding: 5px;
+    }
+
+    .copy {
+        font-size: 1.3em;
+    }
+
+    .redes-sociais {
+        font-size: 1em;
+    }
+
+    .container-redes {
+        align-items: normal;
     }
 
     /* Links para página inicial */
