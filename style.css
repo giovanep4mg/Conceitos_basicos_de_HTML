@@ -553,6 +553,139 @@
 
 }
 
+@media screen and (max-width: 1025px) {
+   
+    
+
+    .toda_pag{
+       padding: 4px;
+    }
+
+    .container-menu{
+        margin-top: -2em;
+        width: 26%;
+        padding: 0.7em;
+        height: -webkit-fill-available;
+        padding-bottom: 10em;
+    }
+    
+    .titulo-menu{
+        font-size: 4.2em;
+    }
+
+    .links-menu {
+        font-size: 2em;
+        line-height: 1.3em;
+        padding: 0.5em;
+    }
+
+    /* pagina */
+    .container-pagina{
+        margin-left: 28%;
+        width: 72%;
+    }
+    
+
+    /* titulo da página principal*/
+    .titulo{
+        font-size: 4.5em;
+    }
+
+    .secao{
+        padding: 0.3em;
+    }
+
+    .sub_titulo_secao{
+        font-size: 4.4em;
+        margin: 0.1em;
+        padding: 0.1em;
+    }
+
+    .secao-descricao{
+        font-size: 2.2em;
+        margin: 0em;
+        padding: 0.2em;
+        padding-bottom: 0em;
+        padding-top: 0em;
+    }
+
+    .container-imagem-cabecalho{  
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    .imagem-cabecalho-1{
+        width: 100%;
+    }
+
+    .imagem-cabecalho-img {
+        width: -webkit-fill-available;
+    }
+
+    .imagem-cabecalho-2{
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 15px;
+    }
+    
+    .imagem-imagens-2 {
+        width: 80%;
+    }
+
+    .imagem-comentario2{
+        width: -webkit-fill-available;
+    }
+
+    /* Links para as redes sociais */
+    .container-redes{
+        padding-bottom: 0em;
+        align-items: center;
+    }
+
+    .redes-sociais{
+        font-size: 2em;
+    }
+
+    .linkedin{
+        margin-left: 0em;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+
+    .facebook {
+        text-align: center;
+    }
+    
+    .insta{
+        padding-right: 0em;
+    }
+
+    .imagem-icon{
+        width: 40%;
+        margin-left: 0em;
+    }
+
+    /* copy */
+    .container-copyrygth{
+        padding: 0px;
+    }
+
+    .copy{
+        font-size: 2.5em;
+        text-align: center;
+        margin: 0em;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-size: 0.7em;
+    }
+
+}
+
 @media screen and (max-width: 970px) {
     
     body{
@@ -604,18 +737,22 @@
 
     .titulo-menu{
         font-size: 2.5em;
+        padding-top: 0.7em;
     }
+    
 
     li{
         list-style: none;
     }
 
     .links-menu{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .container-menu-links {
         padding: 0.7em;
+        margin: 0.9em;
+        padding-top: 0em;
     }
 
     /* pagina */
@@ -909,10 +1046,6 @@
 
 }
 
-
-
-
-
     /* Tela responsiva */
     @media screen and (max-width: 429px) {
         
@@ -1151,30 +1284,30 @@
         }
     
         .imagem-cabecalho-1 {
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         .imagem-cabecalho-img {
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         .imagem-cabecalho-2 {
             margin: -20px;
             margin-top: 1em;
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         .imagem-comentario{
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         .imagem-link-codigo{
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         
         img{
-            width: 100%;
+            width: -webkit-fill-available;
             height: 100%;
         }
     
@@ -1188,6 +1321,7 @@
             padding-bottom: 1em;
             padding-top: 10px;
             flex-direction: row;
+            align-items: baseline;
         }
     
         .linkedin{
@@ -1280,16 +1414,16 @@
     
         /* pagina */
         .container-pagina{
-            width: auto;
+            width: -webkit-fill-available;
         }
         
         .titulo{
             font-size: 2.5em;
-            width: auto;
+            width: -webkit-fill-available;
         }
     
         hr{
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
     
@@ -1304,11 +1438,12 @@
         }
     
         .secao-descricao{
-            width: auto;
+            width: -webkit-fill-available;
+            padding: 1.3em;
         }
     
         .container-imagem-cabecalho {
-            width: 100%;
+            width: -webkit-fill-available;
             padding: 0px;
             margin: 0px;
             padding-top: 55px;
@@ -1317,11 +1452,11 @@
         .imagem-cabecalho-1 {
             margin: 0px;
             padding: 0px;
-            width: max-content;
+            width: -webkit-fill-available;
         }
     
         .imagem-cabecalho-img{
-            width: 100%;
+            width: -webkit-fill-available;
             margin: 0px;
             padding: 0px;
         }
@@ -1334,16 +1469,16 @@
         }
     
         .imagem-link-codigo {
-            width: 100%;
+            width: -webkit-fill-available;
         }
         
     
         .imagem-comentario{
-            width: 100%;
+            width: -webkit-fill-available;
         }
     
         img{
-            width: 100%;
+                width: -webkit-fill-available;
             height: 100%;
         }
     
@@ -1357,8 +1492,8 @@
         }
         
         .imagem-icon{
-            width: 25%;
-            margin-left: 8em;
+            width: 50%;
+            margin-left: 2em;
         }
     
     
@@ -1374,7 +1509,7 @@
         hr{
             background-color: blue;
             height: 15px;
-            width: 100%;
+                width: -webkit-fill-available;
         }
     
         /* copy */
@@ -1389,7 +1524,6 @@
         .redes-sociais{
             font-size: 1em;
             padding-top: 0em;
-            border: 1px solid;
             width: max-content;
         }
         
@@ -1620,10 +1754,6 @@
     /* Tela responsiva */
     @media screen and (max-width: 321px) {
         
-        *{
-    
-        }
-    
         body{
             margin: 0px;
             padding: 0px;
@@ -1754,7 +1884,8 @@
         }
         
         .imagem-icon{
-            width: 20%;
+            width: 60%;
+            margin-left: -3em;
         }
     
     
@@ -1785,7 +1916,7 @@
     
         /* redes sociais */
         .container-redes {
-            display: block;
+            display: flex;
         }
     
         .redes-sociais{
