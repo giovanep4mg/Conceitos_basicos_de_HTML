@@ -1,0 +1,340 @@
+/* responsividade 2561px */
+@media (max-width: 2561px) {
+    
+*{
+    background-color: #efeefe21;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+}
+
+h2{
+    font-size: 3.3em;
+}
+
+.toda-pag{
+    margin: 0px;
+    padding: 2em;
+    padding-bottom: 15em;
+}
+
+
+.titulo{
+    font-size: 10.5em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.descricao{
+    padding: 10px;
+}
+
+.sub-titulo{
+    font-size: 3.4em;
+    color: #0f0a9d;
+}
+
+.container-imagem-sintaxe{
+    width: 100%;
+}
+
+.imagem-sintaxe{
+    width: 55%;
+}
+
+.imagem-sintaxe-atributo{
+    width: 55%;
+}
+
+.detalhe{
+    color: red;
+}
+
+/* Links para página inicial */
+.container-link{
+    text-align: center;
+}
+.link-retorno{
+    font-family: math;
+    font-size: 4em;
+}
+
+}
+
+
+/* responsividade 1441px */
+@media (max-width: 1441px) {
+    
+    h2{
+        font-size: 2em;
+    }
+    
+    .toda-pag{
+        padding: 1em;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 7.5em;
+        padding-top: 10px;
+    }
+    
+    .descricao{
+        padding: 0px;
+    }
+    
+    .sub-titulo{
+        font-size: 2.3em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 55%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 55%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
+
+/* responsividade 1025px */
+@media (max-width: 1025px) {
+    
+    h2{
+        font-size: 2em;
+    }
+    
+    .toda-pag{
+        padding: 1em;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 7.5em;
+        padding-top: 10px;
+    }
+    
+    .descricao{
+        padding: 0px;
+    }
+    
+    .sub-titulo{
+        font-size: 2.3em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 55%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 55%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
+
+/* responsividade 769px */
+@media (max-width: 769px) {
+    
+    h2{
+        font-size: 1.5em;
+    }
+    
+    .toda-pag{
+        padding: 1em;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 3.5em;
+        padding-top: 0px;
+    }
+    
+    .descricao{
+    }
+    
+    .sub-titulo{
+        font-size: 1.7em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 75%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 75%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
+
+/* responsividade 426px */
+@media (max-width: 426px) {
+    
+    h2{
+        font-size: 1.3em;
+    }
+    
+    .toda-pag{
+        padding: 5px;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 2.5em;
+    }
+    
+    .descricao{
+        padding: 5px;
+    }
+    
+    .sub-titulo{
+        font-size: 1.5em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 100%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
+
+/* responsividade 376px */
+@media (max-width: 376px) {
+    
+    h2{
+        font-size: 1em;
+    }
+    
+    .toda-pag{
+        padding: 5px;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 2em;
+    }
+    
+    .descricao{
+        padding: 5px;
+    }
+    
+    .sub-titulo{
+        font-size: 1.3em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 100%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
+
+/* responsividade 376px */
+@media (max-width: 376px) {
+    
+    h2{
+        font-size: 1em;
+    }
+    
+    .toda-pag{
+        padding: 5px;
+    }
+    
+    .container-titulo{
+    
+    }
+    
+    .titulo{
+        font-size: 2em;
+    }
+    
+    .descricao{
+        padding: 5px;
+    }
+    
+    .sub-titulo{
+        font-size: 1.3em;
+    }
+    
+    .container-imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-sintaxe{
+        width: 100%;
+    }
+    
+    .imagem-estrutura-html{
+        width: 100%;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    }
