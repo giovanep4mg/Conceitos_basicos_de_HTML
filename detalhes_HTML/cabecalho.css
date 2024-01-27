@@ -128,7 +128,7 @@ body{
     }
 
     .container-imagem {
-        width: 50%;
+        width: -webkit-fill-available;
     }
 
     .container-link {
