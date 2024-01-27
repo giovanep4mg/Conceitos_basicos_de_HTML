@@ -1,7 +1,7 @@
 /* responsividade 2561px */
 @media (max-width: 2561px) {
     
-*{
+html, body{
     background-color: #efeefe21;
     margin: 0px;
     padding: 0px;
@@ -11,11 +11,9 @@
 body{
     box-sizing: border-box;
     display: flex;
+    background: #b7e4a0ad;
 }
 
-h2{
-    font-size: 3.3em;
-}
 
 .toda-pag{
     margin: 0px;
@@ -32,6 +30,7 @@ h2{
 
 .descricao{
     padding: 10px;
+    font-size: 1.5em;
 }
 
 .sub-titulo{
