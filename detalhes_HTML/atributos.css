@@ -54,7 +54,8 @@ body{
     width: -webkit-fill-available;
 }
 
-ol{
+/* listas */
+ul{
     padding-left: 1.3em;
 }
 
@@ -77,7 +78,6 @@ ol{
 }
 
 
-
 /* Links para página inicial */
 .container-link{
     text-align: center;
@@ -89,3 +89,38 @@ ol{
 
 }
 
+/* responsividade 1441px */
+@media (max-width: 1441px) {
+    
+    .titulo{
+        font-size: 7.5em;
+    }
+    
+    .sub-titulo{
+        font-size: 4.5em;
+    }
+    
+    .descricao{
+        padding: 0.2em;
+        font-size: 2.5em;
+    }
+    
+    ul{
+        padding-left: 1.2em;
+    }
+    
+    .lista-atributos-globais{
+        font-size: 0.9em;
+    }
+    
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: math;
+        font-size: 5.5em;
+    }
+    
+    }
+    
