@@ -85,7 +85,7 @@ ul{
 }
 .link-retorno{
     font-family: math;
-    font-size: 5.5em;
+    font-size: 6.5em;
 }
 
 }
@@ -170,12 +170,12 @@ ul{
 @media (max-width: 769px) {
     
     .titulo{
-        font-size: 3em;
+        font-size: 5em;
         padding-top: 0.2em;
     }
     
     .sub-titulo{
-        font-size: 2em;
+        font-size: 2.6em;
     }
     
     .descricao{
@@ -185,10 +185,11 @@ ul{
     
     ul{
         padding-left: 1.2em;
+        font-size: 1em;
     }
     
     .lista-atributos-globais{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     
     /* Links para página inicial */
@@ -207,25 +208,25 @@ ul{
 @media (max-width: 426px) {
     
     .titulo{
-        font-size: 3em;
-        padding-top: 0.2em;
+        font-size: 2.5em;
+        padding-top: 0em;
     }
     
     .sub-titulo{
-        font-size: 2em;
+        font-size: 1.3em;
     }
     
     .descricao{
-        padding: 0.3em;
-        font-size: 1.5em;
+        padding: 0em;
+        font-size: 1em;
     }
     
     ul{
-        padding-left: 1.2em;
+        padding-left: 1em;
     }
     
     .lista-atributos-globais{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     
     /* Links para página inicial */
@@ -248,12 +249,42 @@ ul{
     }
     
     .sub-titulo{
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
     
     .descricao{
-        padding: 0.2em;
+        padding: 0em;
+        font-size: 0.7em;
+    }
+    
+    ul{
+        padding-left: 1em;
+    }
+    
+    .lista-atributos-globais{
         font-size: 1em;
+    }
+    
+    .link-retorno {
+        font-size: 1.7em;
+    }
+
+}
+
+/* responsividade 376px */
+@media (max-width: 321px) {
+    
+    .titulo{
+        font-size: 2.3em;
+    }
+    
+    .sub-titulo{
+        font-size: 1em;
+    }
+    
+    .descricao{
+        padding: 0em;
+        font-size: 0.7em;
     }
     
     ul{
