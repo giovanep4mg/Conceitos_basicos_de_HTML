@@ -141,3 +141,27 @@ body{
             font-size: 2.5em;
     }
 }
+
+@media (max-width: 769px){
+    
+    .titulo{
+        font-size: 3em;
+    }
+
+    .sub-titulo{
+        font-size: 2em;
+    }
+
+    .descricao{
+        padding: 1.5em;
+        font-size: 0.8em;
+    }
+
+    .container-imagem {
+        width: 65%;
+    }
+
+    .link-retorno{
+            font-size: 2.2em;
+    }
+}
