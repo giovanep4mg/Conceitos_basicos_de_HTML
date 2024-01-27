@@ -5,6 +5,7 @@ html, body{
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
 }
 
 body{
@@ -124,7 +125,7 @@ ul{
     
     }
     
-/* responsividade 1441px */
+/* responsividade 1025px */
 @media (max-width: 1025px) {
     
     .toda-pag{
@@ -164,3 +165,40 @@ ul{
     }
     
     }
+
+/* responsividade 769px */
+@media (max-width: 769px) {
+    
+    .titulo{
+        font-size: 3em;
+        padding-top: 0.2em;
+    }
+    
+    .sub-titulo{
+        font-size: 2em;
+    }
+    
+    .descricao{
+        padding: 0.3em;
+        font-size: 1.5em;
+    }
+    
+    ul{
+        padding-left: 1.2em;
+    }
+    
+    .lista-atributos-globais{
+        font-size: 0.9em;
+    }
+    
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    
+
+    .link-retorno {
+        font-size: 2.5em;
+    }
+
+}
