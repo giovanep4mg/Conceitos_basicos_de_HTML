@@ -5,20 +5,19 @@ html, body{
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
 }
 
 body{
     box-sizing: border-box;
     display: flex;
-    background: #9d889587;
+    background: #9fcafc42;
 }
 
 
 .toda-pag{
     margin: 0px;
-    padding: 2em;
-    padding-bottom: 15em;
+    padding: 0em;
+    padding-bottom: 5em;
     width: -webkit-fill-available;
 }
 
@@ -27,11 +26,11 @@ body{
 }
 
 .titulo{
-    font-size: 10.5em;
+    font-size: 12.5em;
     text-align: center;
-    padding-top: 0.4em;
+    padding-top: 0.1em;
     margin: 0em;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.5em;
 }
 
 .container-conteudo{
@@ -50,25 +49,16 @@ body{
 }
 
 .descricao{
-    padding: 1em;
-    font-size: 3.5em;
+    padding: 1.3em;
+    font-size: 2.5em;
     width: -webkit-fill-available;
-}
-
-/* listas */
-ul{
-    padding-left: 1.3em;
-}
-
-.lista-atributos-globais{
-    font-size: 1em;
 }
 
 .container-imagem{
     width: -webkit-fill-available;
 }
 
-.imagem-sintaxe-atributo{
+.imagem {
     width: -webkit-fill-available;
 }
 
@@ -87,216 +77,5 @@ ul{
     font-family: math;
     font-size: 6.5em;
 }
-
-}
-
-/* responsividade 1441px */
-@media (max-width: 1441px) {
-    
-    .titulo{
-        font-size: 7.5em;
-    }
-    
-    .sub-titulo{
-        font-size: 4.5em;
-    }
-    
-    .descricao{
-        padding: 0.2em;
-        font-size: 2.5em;
-    }
-    
-    ul{
-        padding-left: 1.2em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 0.9em;
-    }
-    
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
-    .link-retorno{
-        font-family: math;
-        font-size: 5.5em;
-    }
-    
-    }
-    
-/* responsividade 1025px */
-@media (max-width: 1025px) {
-    
-    .toda-pag{
-        margin: 0px;
-    padding: 1em;
-    padding-bottom: 0em;
-    }
-    
-    .titulo{
-        font-size: 4.5em;
-    }
-    
-    .sub-titulo{
-        font-size: 2.5em;
-    }
-    
-    .descricao{
-        padding: 0em;
-        font-size: 2em;
-    }
-    
-    ul{
-        padding-left: 1.2em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 0.9em;
-    }
-    
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
-    .link-retorno{
-        font-family: math;
-        font-size: 5.5em;
-    }
-    
-    }
-
-/* responsividade 769px */
-@media (max-width: 769px) {
-    
-    .titulo{
-        font-size: 5em;
-        padding-top: 0.2em;
-    }
-    
-    .sub-titulo{
-        font-size: 2.6em;
-    }
-    
-    .descricao{
-        padding: 0.3em;
-        font-size: 1.5em;
-    }
-    
-    ul{
-        padding-left: 1.2em;
-        font-size: 1em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 1em;
-    }
-    
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
-    
-
-    .link-retorno {
-        font-size: 2.5em;
-    }
-
-}
-
-/* responsividade 426px */
-@media (max-width: 426px) {
-    
-    .titulo{
-        font-size: 2.5em;
-        padding-top: 0em;
-    }
-    
-    .sub-titulo{
-        font-size: 1.3em;
-    }
-    
-    .descricao{
-        padding: 0em;
-        font-size: 1em;
-    }
-    
-    ul{
-        padding-left: 1em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 1em;
-    }
-    
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
-    
-
-    .link-retorno {
-        font-size: 2.5em;
-    }
-
-}
-
-/* responsividade 376px */
-@media (max-width: 376px) {
-    
-    .titulo{
-        font-size: 2.5em;
-    }
-    
-    .sub-titulo{
-        font-size: 1.2em;
-    }
-    
-    .descricao{
-        padding: 0em;
-        font-size: 0.7em;
-    }
-    
-    ul{
-        padding-left: 1em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 1em;
-    }
-    
-    .link-retorno {
-        font-size: 1.7em;
-    }
-
-}
-
-/* responsividade 376px */
-@media (max-width: 321px) {
-    
-    .titulo{
-        font-size: 2.3em;
-    }
-    
-    .sub-titulo{
-        font-size: 1em;
-    }
-    
-    .descricao{
-        padding: 0em;
-        font-size: 0.7em;
-    }
-    
-    ul{
-        padding-left: 1.2em;
-    }
-    
-    .lista-atributos-globais{
-        font-size: 1.2em;
-    }
-    
-    .link-retorno {
-        font-size: 2em;
-    }
 
 }
