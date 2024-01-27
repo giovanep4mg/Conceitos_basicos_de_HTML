@@ -79,3 +79,17 @@ body{
 }
 
 }
+
+@media (max-width: 1441px){
+    *{
+        border: 1px solid;
+    }
+
+    .titulo{
+        font-size: 6.5em;
+    }
+
+    .sub-titulo{
+        font-size: 4em;
+    }
+}
