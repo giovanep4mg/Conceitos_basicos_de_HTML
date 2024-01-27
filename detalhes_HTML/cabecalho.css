@@ -81,8 +81,9 @@ body{
 }
 
 @media (max-width: 1441px){
-    *{
-        border: 1px solid;
+    
+    .toda-pag{
+        padding-bottom: 2em;
     }
 
     .titulo{
@@ -91,5 +92,18 @@ body{
 
     .sub-titulo{
         font-size: 4em;
+    }
+
+    .descricao{
+        padding: 1.1em;
+        font-size: 1.5em;
+    }
+
+    .container-imagem {
+        width: 50%;
+    }
+
+    .link-retorno{
+        font-size: 3.5em;
     }
 }
