@@ -164,4 +164,36 @@
     }
 }
 
+@media (max-width: 769px) {
+    
+    .titulo{
+        font-size: 4.5em;
+    }
+
+    .sub-titulo{
+        font-size: 2.7em;
+    }
+
+    .descricao{
+        font-size: 1.2em;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 6.5em;
+    }
+
+    .link-retorno {
+        font-size: 3em;
+    }
+}
+
 
