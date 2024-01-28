@@ -7,15 +7,10 @@
         height: 100%;
         padding: 0;
         margin: 0;
-
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        border: 1px solid;
     }
 
     body{
-        box-sizing: border-box;
-        display: flex;
         background: #a999b547;
     }
 
@@ -62,6 +57,10 @@
     .container-imagem{
         width: -webkit-fill-available;
     }
+
+    .imagem-elemento-img{
+        width: -webkit-fill-available;
+    }
     .imagem-caminho-para-imagens{
         width: -webkit-fill-available;
     }
@@ -72,6 +71,9 @@
         width: -webkit-fill-available;
     }
     .imagens-atributos-adicionais{
+        width: -webkit-fill-available;
+    }
+    .imagens-responsividade{
         width: -webkit-fill-available;
     }
     .imagens-Lazy-Loading{
@@ -92,6 +94,7 @@
     .container-link{
         text-align: center;
     }
+
     .link-retorno{
         font-family: 'Times New Roman', Times, serif;
         font-size: 6.5em;
@@ -115,16 +118,7 @@
         padding-top: 0em;
     }
 
-    .detalhe{
-        color: red;
-    }
-
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
     .link-retorno{
-        font-family: 'Times New Roman', Times, serif;
         font-size: 6.5em;
     }
 
@@ -146,25 +140,50 @@
         padding-top: 0em;
     }
 
-    .detalhe{
-        color: red;
-    }
-
-    /* Links para página inicial */
-    .container-link{
-        text-align: center;
-    }
-    .link-retorno{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 6.5em;
-    }
-
     .link-retorno {
         font-size: 4.5em;
     }
 }
 
 @media (max-width: 769px) {
+    
+    .titulo{
+        font-size: 4.5em;
+    }
+
+    .sub-titulo{
+        font-size: 2.7em;
+    }
+
+    .descricao{
+        font-size: 1.2em;
+    }
+
+    .link-retorno {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 426px) {
+    
+    .titulo{
+        font-size: 4.5em;
+    }
+
+    .sub-titulo{
+        font-size: 2.7em;
+    }
+
+    .descricao{
+        font-size: 1.2em;
+    }
+
+    .link-retorno {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 376px) {
     
     .titulo{
         font-size: 4.5em;
@@ -186,14 +205,35 @@
     .container-link{
         text-align: center;
     }
+    
+    .link-retorno {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .titulo{
+        font-size: 2.5em;
+        padding-top: 0.3em;
+    }
+
+    .sub-titulo{
+        font-size: 2em;
+        padding-top: 0.5em;
+    }
+
+    .descricao{
+        font-size: 1em;
+        padding: 0.9em;
+    }
+
     .link-retorno{
         font-family: 'Times New Roman', Times, serif;
         font-size: 6.5em;
     }
 
     .link-retorno {
-        font-size: 3em;
+        font-size: 2em;
     }
 }
-
-
