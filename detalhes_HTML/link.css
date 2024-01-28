@@ -11,7 +11,7 @@
     body{
         box-sizing: border-box;
         display: flex;
-        background: #b7e3e04a;
+        background: #b8e3b74a;
     }
 
 
@@ -29,7 +29,7 @@
         text-align: center;
         padding-top: 0em;
         margin: 0em;
-        padding-bottom: 0.2em;
+        padding-bottom: 0em;
     }
 
     .container-conteudo{
@@ -42,7 +42,7 @@
 
     .sub-titulo{
         font-size: 10.5em;
-        color: #0f0a9dde;
+        color: #03084fe8;
         text-align: center;
         margin: 0em;
     }
@@ -55,44 +55,40 @@
     }
 
     .container-imagem{
-        width: 50%;
+        width: 100%;
     }
 
-    .imagem-lista-nao-ordenada{
+    .imagem-sintaxe-links{
         width: -webkit-fill-available;
     }
 
-    .imagem-lista-ordenada{
+    .imagem-links-relativo-absoluto{
         width: -webkit-fill-available;
     }
 
-    .imagem-lista-definicao{
+    .imagem-links-outros-recursos{
         width: -webkit-fill-available;
     }
 
-    .imagem-lista-definicao{
+    .imagem-links-internos{
         width: -webkit-fill-available;
     }
 
-    .exemplo-1{
-        margin: 0.7em;
+    .imagem-links-alvos{
+        width: -webkit-fill-available;
     }
 
-    .exemplo-2{
-        margin: 0.7em;
+    .imagem-links-atributos-adicionais{
+        width: -webkit-fill-available;
     }
 
-    .exemplo-3{
-        margin: 0.7em;
+
+    .exemplo-link{
+        font-family: cursive;
+        padding: 0.5em;
+        font-size: 1em;
     }
 
-    .exemplo-4{
-        margin: 0.7em;
-    }
-
-    .exemplo-5{
-        margin: 0.7em;
-    }
 
     .detalhe{
         color: red;
@@ -103,162 +99,9 @@
         text-align: center;
     }
     .link-retorno{
-        font-family: math;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 6.5em;
     }
 
 }
 
-@media (max-width: 1441px) {
-    
-    
-    .titulo{
-        font-size: 12.5em;
-    }
-
-    .sub-titulo{
-        font-size: 4.5em;
-    }
-
-    .descricao{
-        padding: 0.9em;
-        font-size: 2.5em;
-    }
-
-    .container-imagem{
-        width: 60%;
-    }
-
-    .link-retorno{
-        font-size: 4.5em;
-    }
-
-}
-
-@media (max-width: 1025px) {
-    
-    
-    .titulo{
-        font-size: 6.5em;
-    }
-
-    .sub-titulo{
-        font-size: 3.5em;
-    }
-
-    .descricao{
-        padding: 0.6em;
-        font-size: 1.5em;
-    }
-
-    .container-imagem{
-        width: 40%;
-    }
-
-    .link-retorno{
-        font-size: 2.5em;
-    }
-
-}
-
-@media (max-width: 769px) {
-    
-    
-    .titulo{
-        font-size: 5.5em;
-    }
-
-    .sub-titulo{
-        font-size: 2.5em;
-    }
-
-    .descricao{
-        padding: 1em;
-        font-size: 1em;
-    }
-
-    .container-imagem{
-        width: 45%;
-    }
-
-    .link-retorno{
-        font-size: 2em;
-    }
-
-}
-
-@media (max-width: 426px) {
-
-    .toda-pag{
-        width: -webkit-fill-available;
-    }
-    
-    .titulo{
-        font-size: 4.5em;
-    }
-
-    .sub-titulo{
-        font-size: 2.3em;
-    }
-
-    .descricao{
-        padding: 1.1em;
-        font-size: 0.9em;
-    }
-
-    .container-imagem{
-        width: -webkit-fill-available;
-    }
-
-    .link-retorno{
-        font-size: 2em;
-    }
-
-}
-
-@media (max-width: 376px) {
-    
-    .toda-pag{
-        width: -webkit-fill-available;
-    }
-    
-    .titulo{
-        font-size: 3.5em;
-    }
-
-    .sub-titulo{
-        font-size: 2em;
-    }
-
-    .descricao{
-        padding: 1em;
-        font-size: 1em;
-    }
-
-    .link-retorno{
-        font-size: 1.7em;
-    }
-
-}
-
-@media (max-width: 321px) {
-    
-    
-    .titulo{
-        font-size: 3em;
-    }
-
-    .sub-titulo{
-        font-size: 2em;
-    }
-
-    .descricao{
-        padding: 0.8em;
-        font-size: 1em;
-    }
-
-    .link-retorno{
-        font-size: 2em;
-    }
-
-}
