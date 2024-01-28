@@ -11,7 +11,7 @@
     body{
         box-sizing: border-box;
         display: flex;
-        background: #51474d3a;
+        background: #b7e3e04a;
     }
 
 
@@ -161,8 +161,60 @@
 
 }
 
+@media (max-width: 769px) {
+    
+    
+    .titulo{
+        font-size: 5.5em;
+    }
 
+    .sub-titulo{
+        font-size: 2.5em;
+    }
 
+    .descricao{
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    .container-imagem{
+        width: 45%;
+    }
+
+    .link-retorno{
+        font-size: 2em;
+    }
+
+}
+
+@media (max-width: 426px) {
+    
+    .toda-pag{
+        width: -webkit-fill-available;
+    }
+    
+    .titulo{
+        font-size: 4.5em;
+    }
+
+    .sub-titulo{
+        font-size: 2.3em;
+    }
+
+    .descricao{
+        padding: 1.1em;
+        font-size: 0.9em;
+    }
+
+    .container-imagem{
+        width: 100%;
+    }
+
+    .link-retorno{
+        font-size: 2em;
+    }
+
+}
 
 
 @media (max-width: 321px) {
