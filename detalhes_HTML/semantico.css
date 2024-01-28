@@ -1,0 +1,107 @@
+/* responsividade 2561px */
+@media (max-width: 2561px) {
+    
+    html, body{
+        width: 100%;
+        max-width: 100vw;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        border: 1px solid;
+    }
+
+    body{
+        background: #cc9fee47;
+    }
+
+
+    .toda-pag{
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .container-titulo{
+        width: -webkit-fill-available;
+    }
+
+    .titulo{
+        font-size: 13.5em;
+        text-align: center;
+        padding-top: 0.1em;
+        margin: 0em;
+        padding-bottom: 0.5em;
+    }
+
+    .container-conteudo{
+        width: -webkit-fill-available;
+    }
+
+    .container-subtitulo{
+        width: -webkit-fill-available;
+    }
+
+    .sub-titulo{
+        font-size: 10.5em;
+        color: #03084fe8;
+        text-align: center;
+        margin: 0em;
+    }
+
+    .descricao{
+        padding: 0.7em;
+        font-size: 4em;
+        width: -webkit-fill-available;
+        padding-top: 0em;
+    }
+
+    .container-imagem{
+        width: 60%;
+        padding-left: 20%;
+    }
+
+    .imagens-semanticos-header{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-nav{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-main{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-article{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-section{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-aside{
+        width: -webkit-fill-available;
+    }
+
+    .imagens-semanticos-footer{
+        width: -webkit-fill-available;
+    }
+
+
+    .detalhe{
+        color: red;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+
+    .link-retorno{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 6.5em;
+    }
+
+}
