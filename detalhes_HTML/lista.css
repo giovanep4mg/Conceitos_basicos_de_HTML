@@ -188,7 +188,7 @@
 }
 
 @media (max-width: 426px) {
-    
+
     .toda-pag{
         width: -webkit-fill-available;
     }
@@ -207,7 +207,7 @@
     }
 
     .container-imagem{
-        width: 100%;
+        width: -webkit-fill-available;
     }
 
     .link-retorno{
@@ -216,6 +216,30 @@
 
 }
 
+@media (max-width: 376px) {
+    
+    .toda-pag{
+        width: -webkit-fill-available;
+    }
+    
+    .titulo{
+        font-size: 3.5em;
+    }
+
+    .sub-titulo{
+        font-size: 2em;
+    }
+
+    .descricao{
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    .link-retorno{
+        font-size: 1.7em;
+    }
+
+}
 
 @media (max-width: 321px) {
     
