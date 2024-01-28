@@ -130,3 +130,38 @@
 
 }
 
+@media (max-width: 1025px) {
+    
+    .titulo{
+        font-size: 5.5em;
+    }
+
+    .sub-titulo{
+        font-size: 4em;
+    }
+
+    .descricao{
+        padding: 0.8em;
+        font-size: 1.5em;
+        padding-top: 0em;
+    }
+
+    .detalhe{
+        color: red;
+    }
+
+    /* Links para página inicial */
+    .container-link{
+        text-align: center;
+    }
+    .link-retorno{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 6.5em;
+    }
+
+    .link-retorno {
+        font-size: 4.5em;
+    }
+}
+
+
