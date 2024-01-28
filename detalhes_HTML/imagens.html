@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="imagens.css">
+</head>
+<body>
+    <main class="toda-pag">
+        <!--Container titulo -->
+        <div class="container-titulo">
+            <header>
+                <h1 class="titulo"> Imagens </h1>
+            </header>
+        </div>
+        <!--Breve descricao sobre Listas-->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Breve descrição sobre Imagens</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Em HTML, as imagens são incorporadas nas páginas da web usando o elemento <span class="detalhe">< img ></span>. <br>
+                    As imagens podem ser usadas para adicionar elementos visuais, gráficos ou ilustrações ao conteúdo da página. <br> 
+                    Aqui estão alguns conceitos importantes sobre o uso de imagens em HTML:
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Elemento <img> -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Elemento <span class="detalhe">< img ></span> </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O elemento principal para exibir imagens é <span class="detalhe">< img ></span>. <br> 
+                    A sintaxe básica inclui o atributo "src", que especifica o caminho do arquivo da imagem. <br>
+                    <div class="container-imagem">
+                        <img class="imagem-elemento-img" src="./imagens-imagens/imagens-elemento.png" 
+                        alt="">
+                    </div> 
+                    O atributo <span class="detalhe">alt</span> fornece um texto alternativo que é exibido se a imagem não puder ser carregada. <br> 
+                    Além disso, é usado por leitores de tela para acessibilidade. <br>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Caminhos para Imagens -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Caminhos para Imagens</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O valor do atributo <span class="detalhe">src</span> pode ser um caminho relativo ou absoluto para o arquivo da imagem. <br> 
+                    Um caminho relativo geralmente é usado quando a imagem está localizada no mesmo diretório ou em um subdiretório do documento HTML.
+                    <div class="container-imagem">
+                        <img class="imagem-caminho-para-imagens" src="./imagens-imagens/imagens-caminhos-para-imagens.png" 
+                        alt="">
+                    </div>
+                    <div class="container-imagem">
+                        <img class="imagem-caminho-para-imagens-2" src="./imagens-imagens/imagens-caminhos-para-imagens-2.png" 
+                        alt="">
+                    </div>
+                </h3>    
+            </div>
+        </section>
+        <br>
+        <!-- Formatos de Imagem-->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Formatos de Imagem </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    As imagens podem estar em vários formatos, como JPEG, PNG, GIF, SVG, entre outros. <br> 
+                    O formato escolhido depende das características da imagem (fotográfica, gráfica, transparência, animação, etc.). <br>
+                    <div class="container-imagem">
+                        <img class="imagens-formatos-de-imagens" src="./imagens-imagens/imagens-formatos-de-imagens.png" 
+                        alt="">
+                    </div> 
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Atributos Adicionais -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo">Atributos Adicionais</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Além de <span class="detalhe">src</span> e <span class="detalhe">alt</span>, você pode usar outros atributos com o elemento <span>< img ></span>. <br>
+                    Alguns exemplos incluem: <br>
+                    <span class="detalhe">width</span> e <span class="detalhe">height</span>: Especificam a largura e altura da imagem em pixels. <br>
+                    <span class="detalhe">title</span>: Fornece um título para a imagem que é exibido quando o usuário passa o mouse sobre ela. <br>
+                    <span class="detalhe">style</span>: Permite a aplicação de estilos CSS diretamente à imagem. <br>
+                    <div class="container-imagem">
+                        <img src="./imagens-imagens/imagens-atributos-adicionais.png" 
+                        alt="imagens-atributos-adicionais">
+                    </div>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Imagens Responsivas-->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Imagens Responsivas</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Para tornar as imagens responsivas (adaptáveis a diferentes tamanhos de tela), você pode usar a propriedade CSS: <br> 
+                    <span class="detalhe">max-width: 100%;</span> juntamente com o atributo <span class="detalhe">width</span>.
+                    <div class="container-imagem">
+                        <img class="imagens-responsividade" src="./imagens-imagens/imagens-responsividade.png" 
+                        alt="">
+                    </div> 
+                    Isso permite que a imagem se ajuste automaticamente à largura do contêiner pai. <br>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Lazy Loading -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Lazy Loading </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O atributo <span class="detalhe">loading="lazy"</span> pode ser usado para adiar o carregamento de imagens até que estejam prestes a entrar na área visível do usuário, o que pode melhorar o desempenho da página.
+                    <div class="container-imagem">
+                        <img class="imagens-Lazy-Loading" src="./imagens-imagens/imagens-Lazy-Loading.png" 
+                        alt="">
+                    </div> 
+                    <br>
+                    Certifique-se de otimizar e escolher os formatos apropriados para suas imagens, mantendo uma boa prática de acessibilidade ao fornecer texto alternativo significativo com o atributo <span class="detalhe">alt</span>. <br> 
+                    Isso melhora a experiência do usuário e a acessibilidade da sua página da web. <br>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!--Link para voltar a página -->
+        <section>
+            <div class="container-link">
+                <h6>
+                    <a class="link-retorno" href="../index.html">Voltar para a página de início</a>
+                </h6>
+            </div>
+            <br>
+        </section>
+        <br>
+    </main>
+</body>
+</html>
