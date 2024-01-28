@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <main class="toda-pag">
+        <!--Container titulo -->
+        <div class="container-titulo">
+            <header>
+                <h1 class="titulo"> Links </h1>
+            </header>
+        </div>
+        <!--Breve descricao sobre Listas-->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo" id="descricao-links">Breve descrição sobre Links</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    <p>
+                        Os links são elementos fundamentais para a navegação entre páginas e recursos na web. <br> 
+                        O elemento principal para criar links é <span class="detalhe">< a ></span> (âncora), e os links são geralmente usados para direcionar o usuário para outras páginas, recursos ou locais na mesma página. <br> 
+                        Aqui estão alguns conceitos importantes sobre links em HTML: <br>
+                    </p>
+                </h3>
+            </div>
+            
+        </section>
+        <br>
+        <!-- Elemento <a> (Âncora) -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Elemento <br> 
+                    <span class="detalhe">< a ></span> (Âncora) 
+                </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O elemento <span class="detalhe">< a ></span> é usado para criar links. <br> 
+                    A sintaxe básica inclui o atributo <span class="detalhe">href</span>, que especifica o URL de destino para o link. <br>
+                    <div class="container-imagem">
+                        <img class="imagem-sintaxe-links" src="./imagens-links/link-sintaxe-basica.png" 
+                        alt="">
+                    </div> 
+                    Este link direcionará o usuário para "https://www.exemplo.com" quando clicado. <br>
+                    <br>
+                    Outro exemplo de link, que vai levar o usuário para a página do Google. <br>
+                    <div class="exemplo-link">
+                        <a href="https://www.google.com.br">Google</a>
+                    </div>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Links Relativos e Absolutos -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Links Relativos e Absolutos </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O valor do atributo <span class="detalhe"> href </span>pode ser um URL absoluto (completo) ou um caminho relativo ao arquivo ou recurso dentro do mesmo site. <br>
+                    Links relativos são frequentemente usados para referenciar recursos no mesmo site. <br>
+                    <div class="container-imagem">
+                        <img class="imagem-links-relativo-absoluto" src="./imagens-links/links-relativos-e-absolutos.png" 
+                        alt="">
+                    </div>
+                    Exemplo de link absoluto, que vai levar o usuário para a página do Google. <br>
+                    <div class="exemplo-link">
+                        <a href="https://www.google.com.br">Google</a>
+                    </div>
+                    Exemplo de link relativo, dentro desse mesmo site. <br>
+                    <div class="exemplo-link">
+                        <a href="./atributos.html">atributos HTML</a>
+                    </div>
+                </h3>    
+            </div>
+        </section>
+        <br>
+        <!-- Links para Outros Recursos-->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Links para Outros Recursos </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Além de direcionar para páginas web, os links podem ser usados para vincular a diferentes tipos de recursos, como imagens, arquivos de áudio, arquivos PDF, etc. <br>
+                    Exemplo: <br>
+                    <div class="container-imagem">
+                        <img class="imagem-links-outros-recursos" src="./imagens-links/links-para-outros-recursos.png" 
+                        alt="">
+                    </div> 
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Links Internos (Âncoras) -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo">Links Internos (Âncoras)</h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Você pode criar links internos usando âncoras (<span class="detalhe">< a ></span>) com o atributo <span class="detalhe">href</span> apontando para IDs de elementos na mesma página. <br>
+                    <div class="container-imagem">
+                        <img class="imagem-links-internos" src="./imagens-links/links-interno-ancora.png" 
+                        alt="">
+                    </div> 
+                    Isso cria um link que leva o usuário diretamente para a Seção 2 na mesma página quando clicado. <br>
+                    <br>
+                    Exemplo de link âncora, para acessar um id dentro da página. <br>
+                    <div class="exemplo-link">
+                        <a href="#descricao-links">descrição sobre Links</a>
+                    </div>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Alvos (target) -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Alvos (target) </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    O atributo target é usado para especificar como o link deve ser aberto. <br>
+                    Os valores comuns incluem <span class="detalhe">_blank</span> (abrir em uma nova janela ou guia) e <br>
+                    <span class="detalhe">_self</span> (abrir na mesma janela ou guia). <br>
+                    <div class="container-imagem">
+                        <img class="imagem-links-internos" src="./imagens-links/links-alvo-target.png" 
+                        alt="">
+                    </div> 
+                    Isso abre uma nova janela. <br>
+                    <br>
+                    Exemplo de links: <br>
+                    <div class="exemplo-link">
+                        Usando o atributo "target" com o valor <span class="detalhe">_blank</span> <br>
+                        <a href="https://www.google.com.br" target="_blank">abrir em uma nova janela ou guia</a> <br>
+                        <br>
+                        Usando o atributo "target" <span class="detalhe">_self</span> <br>
+                        <a href="https://www.google.com.br" target="_self">abrir na mesma janela ou guia</a>
+                    </div>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!-- Atributos Adicionais -->
+        <section class="container-conteudo">
+            <div class="container-subtitulo">
+                <h2 class="sub-titulo"> Atributos Adicionais </h2>
+            </div>
+            <div class="descricao">
+                <h3>
+                    Além do <span class="detalhe">href</span> e <span class="detalhe">target</span>, o elemento <span class="detalhe">< a ></span> pode ter outros atributos, como <span class="detalhe">title</span> para fornecer informações adicionais quando o usuário passa o mouse sobre o link.
+                    <div class="container-imagem">
+                        <img class="imagem-links-internos" src="./imagens-links/links-atrinutos-adicionais.png" 
+                        alt="">
+                    </div> 
+                    Links são elementos essenciais para a experiência de navegação na web. <br>
+                    Certifique-se de usar links de forma clara e intuitiva para proporcionar uma experiência de usuário eficiente e fácil. <br>
+                    <br>
+                    Exemplo de link, coloque o mouse sobre o link e irá aparecer o nome escrito no atributo "title": <br>
+                    <div class="exemplo-link">
+                        <a href="https://www.google.com.br" title="Site do Google">Google</a> <br>
+                    </div>
+                </h3>
+            </div>
+        </section>
+        <br>
+        <!--Link para voltar a página -->
+        <section>
+            <div class="container-link">
+                <h6>
+                    <a class="link-retorno" href="../index.html">Voltar para a página de início</a>
+                </h6>
+            </div>
+            <br>
+        </section>
+        <br>
+        <br>
+    </main>
+</body>
+</html>
