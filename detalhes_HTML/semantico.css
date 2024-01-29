@@ -198,3 +198,27 @@
         font-size: 2em;
     }
 }
+
+@media (max-width: 376px){
+
+    .titulo {
+        font-size: 2em;
+    }
+
+    .sub-titulo {
+        font-size: 1.4em;
+    }
+
+    .descricao {
+        font-size: 0.8em;
+    }
+
+    .container-imagem {
+        width: 95%;
+        padding-left: 0.4em;
+    }
+
+    .link-retorno {
+        font-size: 1.7em;
+    }
+}
