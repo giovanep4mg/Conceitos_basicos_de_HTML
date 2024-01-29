@@ -8,8 +8,6 @@
         padding: 0;
         margin: 0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        border: 1px solid;
     }
 
     body{
@@ -246,6 +244,42 @@
     .container-imagem {
         width: -webkit-fill-available;
         padding-left: 0em;
+        height: max-content;
+    }
+
+    .imagens-semanticos-header{
+        width: -webkit-fill-available;
+        height: 22em;
+    }
+
+    .imagens-semanticos-nav{
+        width: -webkit-fill-available;
+        height: 20em;
+    }
+
+    .imagens-semanticos-main{
+        width: -webkit-fill-available;
+        height: 15em;
+    }
+
+    .imagens-semanticos-article{
+        width: -webkit-fill-available;
+        height: 16em;
+    }
+
+    .imagens-semanticos-section{
+        width: -webkit-fill-available;
+        height: 22em;
+    }
+
+    .imagens-semanticos-aside{
+        width: -webkit-fill-available;
+        height: 22em;
+    }
+
+    .imagens-semanticos-footer{
+        width: -webkit-fill-available;
+        height: 15em;
     }
 
     .link-retorno {
