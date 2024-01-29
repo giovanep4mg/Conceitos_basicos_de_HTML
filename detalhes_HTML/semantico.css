@@ -105,3 +105,26 @@
     }
 
 }
+
+@media (max-width: 1441px){
+    .titulo {
+        font-size: 6.5em;
+    }
+
+    .sub-titulo {
+        font-size: 3.5em;
+    }
+
+    .descricao {
+        font-size: 2em;
+    }
+
+    .container-imagem {
+        width: 50%;
+        padding-top: 1em;
+    }
+
+    .link-retorno {
+        font-size: 4.5em;
+    }
+}
