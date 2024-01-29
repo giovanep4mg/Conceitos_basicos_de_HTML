@@ -222,3 +222,33 @@
         font-size: 1.7em;
     }
 }
+
+@media (max-width: 321px){
+
+    .toda-pag {
+        padding: 0.6em;
+    }
+
+    .titulo {
+        font-size: 1.6em;
+        padding-top: 0.7em;
+    }
+
+    .sub-titulo {
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+    .descricao {
+        font-size: 0.7em;
+    }
+
+    .container-imagem {
+        width: -webkit-fill-available;
+        padding-left: 0em;
+    }
+
+    .link-retorno {
+        font-size: 1em;
+    }
+}
