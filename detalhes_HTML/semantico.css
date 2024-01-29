@@ -151,3 +151,50 @@
         font-size: 3em;
     }
 }
+
+@media (max-width: 769px){
+
+    .titulo {
+        font-size: 3em;
+    }
+
+    .sub-titulo {
+        font-size: 2em;
+    }
+
+    .descricao {
+        font-size: 1.3em;
+    }
+
+    .container-imagem {
+        width: 65%;
+    }
+
+    .link-retorno {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 426px){
+
+    .titulo {
+        font-size: 2.7em;
+    }
+
+    .sub-titulo {
+        font-size: 1.7em;
+    }
+
+    .descricao {
+        font-size: 1em;
+    }
+
+    .container-imagem {
+        width: 90%;
+        padding-left: 0.4em;
+    }
+
+    .link-retorno {
+        font-size: 2em;
+    }
+}
